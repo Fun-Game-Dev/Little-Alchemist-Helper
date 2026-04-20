@@ -1,0 +1,441 @@
+{
+  "@@locale": "ru",
+  "appTitle": "Little Alchemist Helper",
+  "startupError": "Ошибка запуска: {error}",
+  "@startupError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "tabDeck": "Колода",
+  "tabCollection": "Коллекция",
+  "tabCombo": "Комбо",
+  "tabImport": "Файлы",
+  "tabSettings": "Настройки",
+  "actionCancel": "Отмена",
+  "actionDelete": "Удалить",
+  "actionSave": "Сохранить",
+  "actionClear": "Очистить",
+  "actionDone": "Готово",
+  "labelSort": "Сортировка",
+  "labelCollection": "Коллекция",
+  "labelAll": "Все",
+  "presenceInCollection": "В коллекции",
+  "presenceNotInCollection": "Нет в коллекции",
+  "sortByName": "По имени",
+  "sortByRarity": "По редкости",
+  "sortByPower": "По силе",
+  "tierBronze": "Бронза",
+  "tierSilver": "Серебро",
+  "tierGold": "Золото",
+  "tierDiamond": "Алмаз",
+  "tierOnyx": "Оникс",
+  "levelFused": "Fusion",
+  "levelShort": "Ур. {level}",
+  "@levelShort": {
+    "placeholders": {
+      "level": {}
+    }
+  },
+  "rarityUnknown": "-",
+  "deckActive": "Активная колода",
+  "deckProfile": "Профиль",
+  "deckNew": "Новая колода",
+  "deckDeleteThis": "Удалить эту колоду",
+  "deckDeleteConfirmTitle": "Удалить колоду?",
+  "deckDeleteConfirmBody": "\"{name}\" будет удалена.",
+  "@deckDeleteConfirmBody": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+  "deckOptimizeButton": "Собрать лучший набор",
+  "deckEditSettings": "Настройки и автозаполнение",
+  "saveFailedGeneric": "Не удалось сохранить изменения.",
+  "settingsMedia": "Медиа",
+  "settingsLoadWikiImages": "Загружать картинки с вики",
+  "settingsLoadWikiImagesSubtitle": "Использовать изображения карт из Little Alchemist Wiki. По умолчанию выключено.",
+  "settingsWikiThanksTitle": "Благодарности",
+  "settingsWikiThanksSubtitle": "Изображения карт предоставлены сообществом сайта Little Alchemist Wiki.",
+  "settingsWikiOpenSite": "Открыть Little Alchemist Wiki",
+  "settingsWikiOpenFailed": "Не удалось открыть сайт вики.",
+  "settingsCatalogStatsTitle": "Статистика каталога по редкости",
+  "settingsCatalogStatsTotal": "Всего карт: {count}",
+  "@settingsCatalogStatsTotal": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "settingsAppInfoTitle": "О приложении",
+  "settingsAppVersion": "Версия: {version}",
+  "@settingsAppVersion": {
+    "placeholders": {
+      "version": {}
+    }
+  },
+  "settingsAppBuild": "Билд: {build}",
+  "@settingsAppBuild": {
+    "placeholders": {
+      "build": {}
+    }
+  },
+  "collectionDeleteOneFromGroup": "Удалить одну \"{name}\"? В группе {count} дубликатов.",
+  "@collectionDeleteOneFromGroup": {
+    "placeholders": {
+      "name": {},
+      "count": {}
+    }
+  },
+  "collectionDeleteOne": "Удалить \"{name}\" из коллекции?",
+  "@collectionDeleteOne": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+  "collectionDeleteTitle": "Удалить из коллекции",
+  "collectionLimitWarning": "У вас больше {limit} карт с одним названием: {names}. Такой набор нельзя использовать в колоде.",
+  "@collectionLimitWarning": {
+    "placeholders": {
+      "limit": {},
+      "names": {}
+    }
+  },
+  "collectionAddOne": "Одна карта",
+  "collectionAddMany": "Массовое добавление",
+  "collectionCollapseDuplicates": "Сгруппировать дубликаты",
+  "collectionHint": "Каждая строка - одна карта. Для изменения удалите и добавьте снова. Лимит колоды: до {limit} карт с одним названием.",
+  "@collectionHint": {
+    "placeholders": {
+      "limit": {}
+    }
+  },
+  "collectionStats": "{kinds} видов - {copies} копий",
+  "@collectionStats": {
+    "placeholders": {
+      "kinds": {},
+      "copies": {}
+    }
+  },
+  "collectionEmpty": "Коллекция пуста. Добавьте карты кнопками выше.",
+  "collectionDuplicatesCount": "x{count} дубликатов",
+  "@collectionDuplicatesCount": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "collectionDeleteOneTooltip": "Удалить одну",
+  "collectionAddToCollection": "Добавить в коллекцию",
+  "deckNameRequired": "Введите название колоды.",
+  "deckName": "Название колоды",
+  "deckSeedCard": "Стартовая карта",
+  "deckNotSelected": "Не выбрано",
+  "deckSeedHint": "Выберите карту из коллекции. Она будет первой.",
+  "deckLevel": "Уровень: {level}",
+  "@deckLevel": {
+    "placeholders": {
+      "level": {}
+    }
+  },
+  "deckSelectCard": "Выбрать карту",
+  "deckPickSeed": "Стартовая карта",
+  "deckFillType": "Режим заполнения",
+  "deckFillHint": "После стартовой карты остальные добавляются по одной.",
+  "deckSize": "Размер колоды: {size}",
+  "@deckSize": {
+    "placeholders": {
+      "size": {}
+    }
+  },
+  "deckMaxNonFusion": "Макс. карт без Fusion: {count}",
+  "@deckMaxNonFusion": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "deckRarityRules": "Правила редкости",
+  "deckMinComboTier": "Мин. редкость учитываемых комбинаций: {tier}",
+  "@deckMinComboTier": {
+    "placeholders": {
+      "tier": {}
+    }
+  },
+  "deckRarityRulesHint": "Задайте минимальный уровень для каждой редкости.",
+  "deckMinLevel": "Мин. уровень: {level}",
+  "@deckMinLevel": {
+    "placeholders": {
+      "level": {}
+    }
+  },
+  "deckNoSeedCandidates": "В коллекции нет подходящих стартовых карт.",
+  "deckPickSeedTitle": "Выберите стартовую карту из коллекции",
+  "comboLabIntro": "Выберите две карты и уровни. Отсутствие результата Fusion для пары может быть нормальным.",
+  "comboCardA": "Карта A",
+  "comboCardB": "Карта B",
+  "comboChange": "Изменить",
+  "comboPickA": "Выбрать карту A",
+  "comboPickB": "Выбрать карту B",
+  "comboResult": "Результат Fusion",
+  "comboPickBoth": "Выберите обе карты.",
+  "comboNoRecipe": "Нет рецепта Fusion для \"{a}\" + \"{b}\".",
+  "@comboNoRecipe": {
+    "placeholders": {
+      "a": {},
+      "b": {}
+    }
+  },
+  "comboBattleLevel": "Боевой ур. {level}",
+  "@comboBattleLevel": {
+    "placeholders": {
+      "level": {}
+    }
+  },
+  "comboBaseStats": "Базовые статы: {attack} / {defense}",
+  "@comboBaseStats": {
+    "placeholders": {
+      "attack": {},
+      "defense": {}
+    }
+  },
+  "comboMaterialsDoubleOnyx": "Материалы: два оникса.",
+  "comboMaterialsMixed": "Материалы: один оникс и одна карта ниже по редкости.",
+  "importDataTitle": "Файлы",
+  "importDataOrder": "Порядок сборки каталога:\n1) встроенный AlchemyCardData.json\n2) дополнение assets/data_from_exel.txt\n3) встроенный CombinationPatch.json\n4) опциональный пользовательский JSON-патч (только добавление).",
+  "importPickPatch": "Выбрать пользовательский JSON-патч",
+  "importResetPatch": "Сбросить только пользовательский патч",
+  "importClearCollectionQuestion": "Очистить коллекцию?",
+  "importClearCollection": "Очистить коллекцию комбо-карт",
+  "importLastMessage": "Последнее сообщение",
+  "catalogNoCards": "Нет карт",
+  "catalogPickCard": "Выбрать карту",
+  "catalogInstanceLevel": "Уровень экземпляра: {level}",
+  "@catalogInstanceLevel": {
+    "placeholders": {
+      "level": {}
+    }
+  },
+  "catalogLevelWillBeSaved": "Этот уровень будет использован при следующем добавлении.",
+  "catalogFrameRarity": "Редкость рамки: {tier} ({rarity}).",
+  "@catalogFrameRarity": {
+    "placeholders": {
+      "tier": {},
+      "rarity": {}
+    }
+  },
+  "catalogSearchHint": "Поиск в каталоге",
+  "catalogRarityFilterTitle": "Фильтр редкости данных",
+  "catalogBulkIntro": "Карты из каталога будут добавлены по фильтрам (сейчас {kinds} видов).",
+  "@catalogBulkIntro": {
+    "placeholders": {
+      "kinds": {}
+    }
+  },
+  "catalogAllowOverLimit": "Разрешить превышение лимита ({limit} на название в колоде)",
+  "@catalogAllowOverLimit": {
+    "placeholders": {
+      "limit": {}
+    }
+  },
+  "catalogOverLimitHint": "Если выключено, лишние копии по названию будут пропущены.",
+  "catalogCopiesPerCard": "Копий на карту",
+  "catalogAllNewLevel": "Уровень для всех новых карт: {level}",
+  "@catalogAllNewLevel": {
+    "placeholders": {
+      "level": {}
+    }
+  },
+  "catalogLimitNotApplied": "Лимит названий не применяется.",
+  "catalogLimitAppliedHint": "При лимите {limit} на название часть копий может быть пропущена.",
+  "@catalogLimitAppliedHint": {
+    "placeholders": {
+      "limit": {}
+    }
+  },
+  "catalogBulkAddTitle": "Массовое добавление",
+  "catalogBulkAddConfirm": "Добавить до {total} карт ({kinds} x {copies}), уровень {level}.\n\n{limitLine}",
+  "@catalogBulkAddConfirm": {
+    "placeholders": {
+      "total": {},
+      "kinds": {},
+      "copies": {},
+      "level": {},
+      "limitLine": {}
+    }
+  },
+  "catalogAddAll": "Добавить все ({kinds} видов)",
+  "@catalogAddAll": {
+    "placeholders": {
+      "kinds": {}
+    }
+  },
+  "importReplaceCollectionTitle": "Заменить текущую коллекцию?",
+  "importReplaceCollectionBody": "Текущая коллекция не пуста. При импорте текущие данные будут удалены и заменены содержимым файла.",
+  "importReplaceCollectionConfirm": "Заменить",
+  "importNotFoundTitle": "Карты не найдены",
+  "importNotFoundBody": "Эти карты отсутствуют в каталоге и не были импортированы:\n\n{names}",
+  "@importNotFoundBody": {
+    "placeholders": {
+      "names": {}
+    }
+  },
+  "importShareZip": "Поделиться ZIP с новыми скачанными картинками",
+  "importUserCollectionTitle": "Коллекция пользователя",
+  "importSimpleFormatHint": "Простой формат файла: одна карта на строку -> карта:уровень",
+  "importShareCollectionTxt": "Поделиться коллекцией (TXT)",
+  "importLoadCollectionTxt": "Импорт коллекции из TXT",
+  "importDeckSettingsTitle": "Настройки колод",
+  "importDeckSettingsHint": "Экспорт/импорт только параметров автосборки колод. Невалидные записи при импорте пропускаются.",
+  "importExportDeckSettings": "Экспорт настроек колод (JSON)",
+  "importLoadDeckSettings": "Импорт настроек колод (JSON)",
+  "importDeckSettingsExportAll": "Экспортировать все колоды",
+  "importDeckSettingsExportOne": "Экспортировать \"{name}\"",
+  "@importDeckSettingsExportOne": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+  "settingsDecksTitle": "Колоды",
+  "settingsDecksHint": "Управляйте профилями колод и параметрами автосборки в Колода -> Настройки и автозаполнение.",
+  "settingsComboCatalogTitle": "Каталог комбинаций",
+  "settingsSyntheticOnyxTitle": "Синтетические результаты Fusion (оникс)",
+  "settingsSyntheticOnyxSubtitle": "Добавляет оникс-копии с усиленными А/З и дополнительные строки результатов для двух оникс-материалов.",
+  "settingsFilesTitle": "Файлы",
+  "settingsFilesHint": "Импорт/экспорт данных, патчей и сервисных файлов приложения.",
+  "settingsOpenFilesScreen": "Открыть экран файлов",
+  "settingsCatalogStatsByAbilityTitle": "Разбивка по абилке и редкости",
+  "settingsCatalogStatsNoAbility": "Без абилки",
+  "deckFocusAttack": "Атака",
+  "deckFocusDefense": "Защита",
+  "deckFocusSumStats": "Сумма статов",
+  "deckStatusSummary": "{focus} · размер {size} · старт: {seed}",
+  "@deckStatusSummary": {
+    "placeholders": {
+      "focus": {},
+      "size": {},
+      "seed": {}
+    }
+  },
+  "deckSeedNone": "не выбрано",
+  "deckNeedAtLeastOneCard": "Добавьте хотя бы одну комбо-карту в коллекцию.",
+  "deckNotEnoughCardsForSize": "В коллекции меньше карт, чем размер колоды ({size}).",
+  "@deckNotEnoughCardsForSize": {
+    "placeholders": {
+      "size": {}
+    }
+  },
+  "deckTapBuildHint": "Нажмите кнопку выше, чтобы собрать колоду.",
+  "deckHeuristicApprox": "Использована быстрая эвристика; результат приблизительный.",
+  "deckPoolTruncated": "Использованы топ-{count} карт по одиночной оценке (лимит пула).",
+  "@deckPoolTruncated": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "deckScoreSummary": "Счёт: {total} (атака {attack} · защита {defense} · комбо {combo})",
+  "@deckScoreSummary": {
+    "placeholders": {
+      "total": {},
+      "attack": {},
+      "defense": {},
+      "combo": {}
+    }
+  },
+  "deckDefaultName": "Колода {index}",
+  "@deckDefaultName": {
+    "placeholders": {
+      "index": {}
+    }
+  },
+  "deckComboVsStatsBalance": "Баланс статов/комбо: {value}",
+  "@deckComboVsStatsBalance": {
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "deckComboVsStatsBalanceHint": "0 - только выбранные статы, 1 - только количество комбинаций",
+  "deckComboVsHandBalance": "Баланс комбо / случайная рука: {value}",
+  "@deckComboVsHandBalance": {
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "deckComboVsHandBalanceHint": "0 — только пары и комбо (статы/комбо выше), 1 — только ожидаемая сила случайной руки из 5 карт по тиру",
+  "comboResultId": "id {id}",
+  "@comboResultId": {
+    "placeholders": {
+      "id": {}
+    }
+  },
+  "comboPreviewStatsFromSheet": "A/D из fusion_onyx_stats: {attack} / {defense}",
+  "@comboPreviewStatsFromSheet": {
+    "placeholders": {
+      "attack": {},
+      "defense": {}
+    }
+  },
+  "comboPreviewStatsEstimated": "Оценочные A/D: {attack} / {defense}",
+  "@comboPreviewStatsEstimated": {
+    "placeholders": {
+      "attack": {},
+      "defense": {}
+    }
+  },
+  "loadSaveDecksStorageFailed": "Не удалось сохранить колоды в хранилище. Настройки колод могут быть потеряны после перезапуска.",
+  "loadCatalogLoaded": "Каталог загружен: AlchemyCardData + Excel + патчи ({count} карт)",
+  "loadCatalogError": "Ошибка загрузки каталога: {error}",
+  "loadOpenFilePickerFailed": "Не удалось открыть выбор файла: {error}",
+  "loadImportPatchCancelled": "Импорт патча отменен: файл не выбран.",
+  "loadCouldNotReadFile": "Не удалось прочитать файл.",
+  "loadFileInvalidJson": "Файл не является валидным JSON: {error}",
+  "loadPatchSavedCatalogRebuilt": "Патч сохранен; каталог пересобран ({count} карт)",
+  "loadPatchAppliedSessionOnly": "Патч применен для текущей сессии ({count} карт), путь не сохранен",
+  "loadUserPatchReset": "Пользовательский патч сброшен; каталог ({count} карт)",
+  "loadNoStoragePermission": "Нет разрешения на сохранение файлов. Разрешите доступ к хранилищу в настройках приложения.",
+  "loadNoImageDataForExport": "Нет данных об изображениях для экспорта.",
+  "loadNoNewDownloadedFilesForExport": "Нет новых скачанных файлов для экспорта (изображения из assets/images не включаются).",
+  "loadShareSheetOpenedSaveToFiles": "Открыт системный экран Поделиться. Выберите Сохранить в Файлы и папку назначения.",
+  "loadExportedImagesZip": "Экспортировано изображений: {count}\nZIP: {path}",
+  "loadZipSavedToAppFiles": "Системный диалог сохранения недоступен. ZIP сохранен в файлы приложения:\n{path}",
+  "loadZipExportError": "Ошибка экспорта ZIP: {error}",
+  "loadCollectionEmptyNothingToExport": "Коллекция пуста, экспортировать нечего.",
+  "loadNoValidCardsForExport": "Не найдено валидных карт для экспорта.",
+  "loadExportedCards": "Экспортировано карт: {count}\nФайл: {path}",
+  "loadCollectionFileSavedToAppFiles": "Системный диалог сохранения недоступен. Файл коллекции сохранен в файлы приложения:\n{path}",
+  "loadCollectionExportError": "Ошибка экспорта коллекции: {error}",
+  "loadImportCollectionCancelled": "Импорт коллекции отменен: файл не выбран.",
+  "loadCouldNotReadCollectionFile": "Не удалось прочитать файл коллекции.",
+  "loadImportCompleted": "Импорт завершен: {imported} карт. Пропущено строк: {skipped}. Не найдено карт: {notFound}.",
+  "loadCouldNotSaveDecks": "Не удалось сохранить колоды.",
+  "loadDeckSettingsExportFailedNoDeck": "Выберите колоду для экспорта.",
+  "loadDeckSettingsExportEmpty": "Нет настроек колод для экспорта.",
+  "loadDeckSettingsExported": "Экспортировано настроек колод: {count}\nФайл: {path}",
+  "loadDeckSettingsSavedToAppFiles": "Системный диалог сохранения недоступен. Файл настроек колод сохранен в файлы приложения:\n{path}",
+  "loadDeckSettingsExportError": "Ошибка экспорта настроек колод: {error}",
+  "loadImportDeckSettingsCancelled": "Импорт настроек колод отменен: файл не выбран.",
+  "loadCouldNotReadDeckSettingsFile": "Не удалось прочитать файл настроек колод.",
+  "loadDeckSettingsInvalidJson": "Файл настроек колод не является валидным JSON: {error}",
+  "loadDeckSettingsInvalidStructure": "Файл настроек колод имеет неверную структуру.",
+  "loadDeckSettingsUnsupportedFormat": "Неподдерживаемый формат файла настроек колод.",
+  "loadDeckSettingsNothingImported": "Не импортировано ни одной валидной настройки колоды. Пропущено записей: {skipped}.",
+  "loadDeckSettingsImported": "Импортировано настроек колод: {imported}. Пропущено невалидных записей: {skipped}.",
+  "loadSyntheticOnyxEnabled": "Каталог дополнен синтетическими Fusion-результатами оникса ({count} карт)",
+  "loadSyntheticOnyxDisabled": "Синтетические Fusion-результаты оникса отключены ({count} карт)",
+  "tabShopSeasons": "Сезоны магазина",
+  "shopPackScheduleLoadError": "Не удалось загрузить расписание магазина: {error}",
+  "shopPackInStoreNow": "Сейчас в магазине",
+  "shopPackWindowDates": "В магазине: {start} – {end}",
+  "shopPackCardLevel": "Уровень карт",
+  "shopPackCardsInPack": "Карты в пакете",
+  "shopPackNoContents": "Список карт для этого пакета пока не задан. Добавьте имена в shop_pack_contents.json.",
+  "shopPackUnknownCard": "Нет в каталоге: {name}",
+  "shopPackNoRotationScheduled": "Нет слота в расписании ротации приложения",
+  "shopPackWikiOpenFailed": "Не удалось открыть вики: {url}",
+  "shopPackOtherCategory": "Прочие пакеты (нет в ротации приложения)",
+  "shopPackGoldCombo": "Gold: {card}",
+  "shopPackOnyxCombo": "Onyx: {card}",
+  "eventsShopTitle": "Магазин",
+  "eventsShopSubtitle": "Пакеты в магазине",
+  "eventsArenaTitle": "Арена",
+  "eventsArenaSubtitle": "Магазин арены",
+  "eventsPortalTitle": "Портал",
+  "eventsPortalSubtitle": "Награды за портал"
+}

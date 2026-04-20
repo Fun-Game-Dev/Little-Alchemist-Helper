@@ -1,0 +1,441 @@
+{
+  "@@locale": "es",
+  "appTitle": "Little Alchemist Helper",
+  "startupError": "Error de inicio: {error}",
+  "@startupError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "tabDeck": "Mazo",
+  "tabCollection": "Coleccion",
+  "tabCombo": "Combinaciones",
+  "tabImport": "Archivos",
+  "tabSettings": "Ajustes",
+  "actionCancel": "Cancelar",
+  "actionDelete": "Eliminar",
+  "actionSave": "Guardar",
+  "actionClear": "Limpiar",
+  "actionDone": "Listo",
+  "labelSort": "Ordenar",
+  "labelCollection": "Coleccion",
+  "labelAll": "Todo",
+  "presenceInCollection": "En coleccion",
+  "presenceNotInCollection": "No en coleccion",
+  "sortByName": "Nombre",
+  "sortByRarity": "Rareza",
+  "sortByPower": "Poder",
+  "tierBronze": "Bronce",
+  "tierSilver": "Plata",
+  "tierGold": "Oro",
+  "tierDiamond": "Diamante",
+  "tierOnyx": "Onix",
+  "levelFused": "Fusion",
+  "levelShort": "Nv. {level}",
+  "@levelShort": {
+    "placeholders": {
+      "level": {}
+    }
+  },
+  "rarityUnknown": "-",
+  "deckActive": "Mazo activo",
+  "deckProfile": "Perfil",
+  "deckNew": "Nuevo mazo",
+  "deckDeleteThis": "Eliminar este mazo",
+  "deckDeleteConfirmTitle": "Eliminar mazo?",
+  "deckDeleteConfirmBody": "\"{name}\" se eliminara.",
+  "@deckDeleteConfirmBody": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+  "deckOptimizeButton": "Crear mejor set",
+  "deckEditSettings": "Ajustes y auto-llenado",
+  "saveFailedGeneric": "No se pudieron guardar los cambios.",
+  "settingsMedia": "Medios",
+  "settingsLoadWikiImages": "Cargar imagenes de wiki",
+  "settingsLoadWikiImagesSubtitle": "Usar imagenes de cartas de Little Alchemist Wiki. Desactivado por defecto.",
+  "settingsWikiThanksTitle": "Agradecimientos",
+  "settingsWikiThanksSubtitle": "Las imagenes de cartas son proporcionadas por la comunidad de Little Alchemist Wiki.",
+  "settingsWikiOpenSite": "Abrir Little Alchemist Wiki",
+  "settingsWikiOpenFailed": "No se pudo abrir el sitio wiki.",
+  "settingsCatalogStatsTitle": "Estadisticas del catalogo por rareza",
+  "settingsCatalogStatsTotal": "Cartas totales: {count}",
+  "@settingsCatalogStatsTotal": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "settingsAppInfoTitle": "Acerca de la app",
+  "settingsAppVersion": "Version: {version}",
+  "@settingsAppVersion": {
+    "placeholders": {
+      "version": {}
+    }
+  },
+  "settingsAppBuild": "Build: {build}",
+  "@settingsAppBuild": {
+    "placeholders": {
+      "build": {}
+    }
+  },
+  "collectionDeleteOneFromGroup": "Eliminar una \"{name}\"? El grupo tiene {count} duplicados.",
+  "@collectionDeleteOneFromGroup": {
+    "placeholders": {
+      "name": {},
+      "count": {}
+    }
+  },
+  "collectionDeleteOne": "Eliminar \"{name}\" de la coleccion?",
+  "@collectionDeleteOne": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+  "collectionDeleteTitle": "Quitar de la coleccion",
+  "collectionLimitWarning": "Tienes mas de {limit} cartas con el mismo nombre: {names}. Este conjunto no se permite en un mazo.",
+  "@collectionLimitWarning": {
+    "placeholders": {
+      "limit": {},
+      "names": {}
+    }
+  },
+  "collectionAddOne": "Una carta",
+  "collectionAddMany": "Agregar en lote",
+  "collectionCollapseDuplicates": "Agrupar duplicados",
+  "collectionHint": "Cada fila es una carta. Para editar, elimina y agrega de nuevo. Limite del mazo: hasta {limit} cartas con un nombre.",
+  "@collectionHint": {
+    "placeholders": {
+      "limit": {}
+    }
+  },
+  "collectionStats": "{kinds} tipos - {copies} copias",
+  "@collectionStats": {
+    "placeholders": {
+      "kinds": {},
+      "copies": {}
+    }
+  },
+  "collectionEmpty": "La coleccion esta vacia. Agrega cartas con los botones de arriba.",
+  "collectionDuplicatesCount": "x{count} duplicados",
+  "@collectionDuplicatesCount": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "collectionDeleteOneTooltip": "Eliminar una",
+  "collectionAddToCollection": "Agregar a la coleccion",
+  "deckNameRequired": "Ingresa el nombre del mazo.",
+  "deckName": "Nombre del mazo",
+  "deckSeedCard": "Carta semilla",
+  "deckNotSelected": "No seleccionada",
+  "deckSeedHint": "Elige una carta de la coleccion. Sera la primera.",
+  "deckLevel": "Nivel: {level}",
+  "@deckLevel": {
+    "placeholders": {
+      "level": {}
+    }
+  },
+  "deckSelectCard": "Elegir carta",
+  "deckPickSeed": "Carta semilla",
+  "deckFillType": "Modo de llenado",
+  "deckFillHint": "Despues de la carta semilla, las cartas se agregan una por una.",
+  "deckSize": "Tamano del mazo: {size}",
+  "@deckSize": {
+    "placeholders": {
+      "size": {}
+    }
+  },
+  "deckMaxNonFusion": "Maximo de cartas no Fusion: {count}",
+  "@deckMaxNonFusion": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "deckRarityRules": "Reglas de rareza",
+  "deckMinComboTier": "Rareza minima de combo considerada: {tier}",
+  "@deckMinComboTier": {
+    "placeholders": {
+      "tier": {}
+    }
+  },
+  "deckRarityRulesHint": "Define el nivel minimo para cada rareza.",
+  "deckMinLevel": "Nivel minimo: {level}",
+  "@deckMinLevel": {
+    "placeholders": {
+      "level": {}
+    }
+  },
+  "deckNoSeedCandidates": "No hay cartas semilla adecuadas en la coleccion.",
+  "deckPickSeedTitle": "Elige carta semilla de la coleccion",
+  "comboLabIntro": "Elige dos cartas y niveles. Que falte un resultado Fusion para una pareja puede ser normal.",
+  "comboCardA": "Carta A",
+  "comboCardB": "Carta B",
+  "comboChange": "Cambiar",
+  "comboPickA": "Elegir carta A",
+  "comboPickB": "Elegir carta B",
+  "comboResult": "Resultado Fusion",
+  "comboPickBoth": "Elige ambas cartas.",
+  "comboNoRecipe": "No hay receta Fusion para \"{a}\" + \"{b}\".",
+  "@comboNoRecipe": {
+    "placeholders": {
+      "a": {},
+      "b": {}
+    }
+  },
+  "comboBattleLevel": "Nivel de batalla {level}",
+  "@comboBattleLevel": {
+    "placeholders": {
+      "level": {}
+    }
+  },
+  "comboBaseStats": "Estadisticas base: {attack} / {defense}",
+  "@comboBaseStats": {
+    "placeholders": {
+      "attack": {},
+      "defense": {}
+    }
+  },
+  "comboMaterialsDoubleOnyx": "Materiales: dos niveles onyx.",
+  "comboMaterialsMixed": "Materiales: un onyx y un nivel inferior.",
+  "importDataTitle": "Archivos",
+  "importDataOrder": "Orden de construccion del catalogo:\n1) AlchemyCardData.json integrado\n2) suplemento assets/data_from_exel.txt\n3) CombinationPatch.json integrado\n4) parche JSON de usuario opcional (solo aditivo).",
+  "importPickPatch": "Elegir parche JSON de usuario",
+  "importResetPatch": "Restablecer solo parche de usuario",
+  "importClearCollectionQuestion": "Limpiar coleccion?",
+  "importClearCollection": "Limpiar coleccion de cartas combo",
+  "importLastMessage": "Ultimo mensaje",
+  "catalogNoCards": "Sin cartas",
+  "catalogPickCard": "Elegir carta",
+  "catalogInstanceLevel": "Nivel de instancia: {level}",
+  "@catalogInstanceLevel": {
+    "placeholders": {
+      "level": {}
+    }
+  },
+  "catalogLevelWillBeSaved": "El nivel se usara para la siguiente adicion.",
+  "catalogFrameRarity": "Rareza del marco: {tier} ({rarity}).",
+  "@catalogFrameRarity": {
+    "placeholders": {
+      "tier": {},
+      "rarity": {}
+    }
+  },
+  "catalogSearchHint": "Buscar en catalogo",
+  "catalogRarityFilterTitle": "Filtro de rareza de datos",
+  "catalogBulkIntro": "Las cartas del catalogo se agregaran por filtros (ahora {kinds} tipos).",
+  "@catalogBulkIntro": {
+    "placeholders": {
+      "kinds": {}
+    }
+  },
+  "catalogAllowOverLimit": "Permitir sobrepasar limite ({limit} por nombre de mazo)",
+  "@catalogAllowOverLimit": {
+    "placeholders": {
+      "limit": {}
+    }
+  },
+  "catalogOverLimitHint": "Si esta desactivado, se omiten copias extra por nombre.",
+  "catalogCopiesPerCard": "Copias por carta",
+  "catalogAllNewLevel": "Nivel para todas las cartas nuevas: {level}",
+  "@catalogAllNewLevel": {
+    "placeholders": {
+      "level": {}
+    }
+  },
+  "catalogLimitNotApplied": "No se aplica limite por nombre.",
+  "catalogLimitAppliedHint": "Con limite {limit} por nombre, algunas copias pueden omitirse.",
+  "@catalogLimitAppliedHint": {
+    "placeholders": {
+      "limit": {}
+    }
+  },
+  "catalogBulkAddTitle": "Agregar en lote",
+  "catalogBulkAddConfirm": "Agregar hasta {total} cartas ({kinds} x {copies}), nivel {level}.\n\n{limitLine}",
+  "@catalogBulkAddConfirm": {
+    "placeholders": {
+      "total": {},
+      "kinds": {},
+      "copies": {},
+      "level": {},
+      "limitLine": {}
+    }
+  },
+  "catalogAddAll": "Agregar todo ({kinds} tipos)",
+  "@catalogAddAll": {
+    "placeholders": {
+      "kinds": {}
+    }
+  },
+  "importReplaceCollectionTitle": "Reemplazar la coleccion actual?",
+  "importReplaceCollectionBody": "La coleccion actual no esta vacia. Al importar, los datos actuales se borraran y se reemplazaran con el contenido del archivo.",
+  "importReplaceCollectionConfirm": "Reemplazar",
+  "importNotFoundTitle": "Cartas no encontradas",
+  "importNotFoundBody": "Estas cartas no estan en el catalogo y no se importaron:\n\n{names}",
+  "@importNotFoundBody": {
+    "placeholders": {
+      "names": {}
+    }
+  },
+  "importShareZip": "Compartir ZIP con imagenes recien descargadas",
+  "importUserCollectionTitle": "Coleccion del usuario",
+  "importSimpleFormatHint": "Formato simple: una carta por linea -> carta:nivel",
+  "importShareCollectionTxt": "Compartir coleccion (TXT)",
+  "importLoadCollectionTxt": "Importar coleccion desde TXT",
+  "importDeckSettingsTitle": "Ajustes de mazos",
+  "importDeckSettingsHint": "Exporta/importa solo parametros de auto-construccion de mazos. Las entradas invalidas se omiten al importar.",
+  "importExportDeckSettings": "Exportar ajustes de mazos (JSON)",
+  "importLoadDeckSettings": "Importar ajustes de mazos (JSON)",
+  "importDeckSettingsExportAll": "Exportar todos los mazos",
+  "importDeckSettingsExportOne": "Exportar \"{name}\"",
+  "@importDeckSettingsExportOne": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+  "settingsDecksTitle": "Mazos",
+  "settingsDecksHint": "Gestiona perfiles de mazo y parametros de auto-construccion en Mazo -> Ajustes y autollenado.",
+  "settingsComboCatalogTitle": "Catalogo de combos",
+  "settingsSyntheticOnyxTitle": "Resultados sinteticos Fusion onyx",
+  "settingsSyntheticOnyxSubtitle": "Agrega copias onyx con A/D mejorados y filas extra de resultado para dos materiales onyx.",
+  "settingsFilesTitle": "Archivos",
+  "settingsFilesHint": "Importar/exportar datos, parches y archivos de servicio de la app.",
+  "settingsOpenFilesScreen": "Abrir pantalla de archivos",
+  "settingsCatalogStatsByAbilityTitle": "Desglose por habilidad y rareza",
+  "settingsCatalogStatsNoAbility": "Sin habilidad",
+  "deckFocusAttack": "Ataque",
+  "deckFocusDefense": "Defensa",
+  "deckFocusSumStats": "Suma de estadisticas",
+  "deckStatusSummary": "{focus} · tamano {size} · semilla: {seed}",
+  "@deckStatusSummary": {
+    "placeholders": {
+      "focus": {},
+      "size": {},
+      "seed": {}
+    }
+  },
+  "deckSeedNone": "ninguna",
+  "deckNeedAtLeastOneCard": "Agrega al menos una carta de combo a la coleccion.",
+  "deckNotEnoughCardsForSize": "La coleccion tiene menos cartas que el tamano del mazo ({size}).",
+  "@deckNotEnoughCardsForSize": {
+    "placeholders": {
+      "size": {}
+    }
+  },
+  "deckTapBuildHint": "Toca el boton de arriba para construir.",
+  "deckHeuristicApprox": "Se uso una heuristica rapida; el resultado es aproximado.",
+  "deckPoolTruncated": "Se usaron las {count} mejores cartas por puntuacion individual (limite del pool).",
+  "@deckPoolTruncated": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "deckScoreSummary": "Puntuacion: {total} (ataque {attack} · defensa {defense} · combo {combo})",
+  "@deckScoreSummary": {
+    "placeholders": {
+      "total": {},
+      "attack": {},
+      "defense": {},
+      "combo": {}
+    }
+  },
+  "deckDefaultName": "Mazo {index}",
+  "@deckDefaultName": {
+    "placeholders": {
+      "index": {}
+    }
+  },
+  "deckComboVsStatsBalance": "Balance estadisticas/combo: {value}",
+  "@deckComboVsStatsBalance": {
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "deckComboVsStatsBalanceHint": "0 - solo estadisticas elegidas, 1 - solo cantidad de combos",
+  "deckComboVsHandBalance": "Balance combo / mano aleatoria: {value}",
+  "@deckComboVsHandBalance": {
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "deckComboVsHandBalanceHint": "0 - solo eleccion por pares (stats/combos arriba), 1 - solo fuerza esperada de una mano aleatoria de 5 por rareza",
+  "comboResultId": "id {id}",
+  "@comboResultId": {
+    "placeholders": {
+      "id": {}
+    }
+  },
+  "comboPreviewStatsFromSheet": "A/D de fusion_onyx_stats: {attack} / {defense}",
+  "@comboPreviewStatsFromSheet": {
+    "placeholders": {
+      "attack": {},
+      "defense": {}
+    }
+  },
+  "comboPreviewStatsEstimated": "A/D estimado: {attack} / {defense}",
+  "@comboPreviewStatsEstimated": {
+    "placeholders": {
+      "attack": {},
+      "defense": {}
+    }
+  },
+  "loadSaveDecksStorageFailed": "No se pudieron guardar los mazos en el almacenamiento. La configuracion de mazos puede perderse al reiniciar.",
+  "loadCatalogLoaded": "Catalogo cargado: AlchemyCardData + Excel + parches ({count} cartas)",
+  "loadCatalogError": "Error al cargar catalogo: {error}",
+  "loadOpenFilePickerFailed": "No se pudo abrir el selector de archivos: {error}",
+  "loadImportPatchCancelled": "Importacion de parche cancelada: no se selecciono archivo.",
+  "loadCouldNotReadFile": "No se pudo leer el archivo.",
+  "loadFileInvalidJson": "El archivo no es JSON valido: {error}",
+  "loadPatchSavedCatalogRebuilt": "Parche guardado; catalogo reconstruido ({count} cartas)",
+  "loadPatchAppliedSessionOnly": "Parche aplicado para la sesion actual ({count} cartas), ruta no guardada",
+  "loadUserPatchReset": "Parche de usuario restablecido; catalogo ({count} cartas)",
+  "loadNoStoragePermission": "No hay permiso para guardar archivos. Permite acceso al almacenamiento en ajustes de la app.",
+  "loadNoImageDataForExport": "No hay datos de imagen para exportar.",
+  "loadNoNewDownloadedFilesForExport": "No hay archivos descargados nuevos para exportar (las imagenes de assets/images se excluyen).",
+  "loadShareSheetOpenedSaveToFiles": "Se abrio la pantalla Compartir del sistema. Elige Guardar en Archivos y carpeta de destino.",
+  "loadExportedImagesZip": "Imagenes exportadas: {count}\nZIP: {path}",
+  "loadZipSavedToAppFiles": "El dialogo de guardado del sistema no esta disponible. ZIP guardado en archivos de la app:\n{path}",
+  "loadZipExportError": "Error al exportar ZIP: {error}",
+  "loadCollectionEmptyNothingToExport": "La coleccion esta vacia, nada para exportar.",
+  "loadNoValidCardsForExport": "No se encontraron cartas validas para exportar.",
+  "loadExportedCards": "Cartas exportadas: {count}\nArchivo: {path}",
+  "loadCollectionFileSavedToAppFiles": "El dialogo de guardado del sistema no esta disponible. Archivo de coleccion guardado en archivos de la app:\n{path}",
+  "loadCollectionExportError": "Error al exportar coleccion: {error}",
+  "loadImportCollectionCancelled": "Importacion de coleccion cancelada: no se selecciono archivo.",
+  "loadCouldNotReadCollectionFile": "No se pudo leer el archivo de coleccion.",
+  "loadImportCompleted": "Importacion completada: {imported} cartas. Lineas omitidas: {skipped}. Cartas no encontradas: {notFound}.",
+  "loadCouldNotSaveDecks": "No se pudieron guardar los mazos.",
+  "loadDeckSettingsExportFailedNoDeck": "Selecciona un mazo para exportar.",
+  "loadDeckSettingsExportEmpty": "No hay ajustes de mazo para exportar.",
+  "loadDeckSettingsExported": "Ajustes de mazo exportados: {count}\nArchivo: {path}",
+  "loadDeckSettingsSavedToAppFiles": "El dialogo de guardado del sistema no esta disponible. Archivo de ajustes de mazo guardado en archivos de la app:\n{path}",
+  "loadDeckSettingsExportError": "Error al exportar ajustes de mazo: {error}",
+  "loadImportDeckSettingsCancelled": "Importacion de ajustes de mazo cancelada: no se selecciono archivo.",
+  "loadCouldNotReadDeckSettingsFile": "No se pudo leer el archivo de ajustes de mazo.",
+  "loadDeckSettingsInvalidJson": "El archivo de ajustes de mazo no es JSON valido: {error}",
+  "loadDeckSettingsInvalidStructure": "El archivo de ajustes de mazo tiene estructura invalida.",
+  "loadDeckSettingsUnsupportedFormat": "Formato de archivo de ajustes de mazo no compatible.",
+  "loadDeckSettingsNothingImported": "No se importo ningun ajuste de mazo valido. Entradas omitidas: {skipped}.",
+  "loadDeckSettingsImported": "Ajustes de mazo importados: {imported}. Entradas invalidas omitidas: {skipped}.",
+  "loadSyntheticOnyxEnabled": "Catalogo ampliado con resultados sinteticos Fusion onyx ({count} cartas)",
+  "loadSyntheticOnyxDisabled": "Resultados sinteticos Fusion onyx desactivados ({count} cartas)",
+  "tabShopSeasons": "Temporadas de tienda",
+  "shopPackScheduleLoadError": "No se pudo cargar el calendario de la tienda: {error}",
+  "shopPackInStoreNow": "En la tienda ahora",
+  "shopPackWindowDates": "En tienda: {start} – {end}",
+  "shopPackCardLevel": "Nivel de cartas",
+  "shopPackCardsInPack": "Cartas del sobre",
+  "shopPackNoContents": "Aun no hay lista de cartas para este sobre. Anade nombres en shop_pack_contents.json.",
+  "shopPackUnknownCard": "No esta en el catalogo: {name}",
+  "shopPackNoRotationScheduled": "Sin hueco en el calendario de rotacion de la app",
+  "shopPackWikiOpenFailed": "No se pudo abrir la wiki: {url}",
+  "shopPackOtherCategory": "Otros sobres (fuera de la rotacion de la app)",
+  "shopPackGoldCombo": "Gold: {card}",
+  "shopPackOnyxCombo": "Onyx: {card}",
+  "eventsShopTitle": "Tienda",
+  "eventsShopSubtitle": "Paquetes en la tienda",
+  "eventsArenaTitle": "Arena",
+  "eventsArenaSubtitle": "Tienda de arena",
+  "eventsPortalTitle": "Portal",
+  "eventsPortalSubtitle": "Recompensas del portal"
+}

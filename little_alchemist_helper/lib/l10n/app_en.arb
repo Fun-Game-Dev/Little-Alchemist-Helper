@@ -1,0 +1,588 @@
+{
+  "@@locale": "en",
+  "appTitle": "Little Alchemist Helper",
+  "startupError": "Startup error: {error}",
+  "@startupError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "tabDeck": "Deck",
+  "tabCollection": "Collection",
+  "tabCombo": "Combo",
+  "tabImport": "Files",
+  "tabSettings": "Settings",
+  "actionCancel": "Cancel",
+  "actionDelete": "Delete",
+  "actionSave": "Save",
+  "actionClear": "Clear",
+  "actionDone": "Done",
+  "labelSort": "Sort",
+  "labelCollection": "Collection",
+  "labelAll": "All",
+  "presenceInCollection": "In collection",
+  "presenceNotInCollection": "Not in collection",
+  "sortByName": "Name",
+  "sortByRarity": "Rarity",
+  "sortByPower": "Power",
+  "tierBronze": "Bronze",
+  "tierSilver": "Silver",
+  "tierGold": "Gold",
+  "tierDiamond": "Diamond",
+  "tierOnyx": "Onyx",
+  "levelFused": "Fusion",
+  "levelShort": "Lv. {level}",
+  "@levelShort": {
+    "placeholders": {
+      "level": {}
+    }
+  },
+  "rarityUnknown": "-",
+  "deckActive": "Active deck",
+  "deckProfile": "Profile",
+  "deckNew": "New deck",
+  "deckDeleteThis": "Delete this deck",
+  "deckDeleteConfirmTitle": "Delete deck?",
+  "deckDeleteConfirmBody": "\"{name}\" will be deleted.",
+  "@deckDeleteConfirmBody": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+  "deckOptimizeButton": "Build best combo set",
+  "deckEditSettings": "Settings and auto-fill",
+  "saveFailedGeneric": "Could not save changes.",
+  "settingsMedia": "Media",
+  "settingsLoadWikiImages": "Load wiki images",
+  "settingsLoadWikiImagesSubtitle": "Use Little Alchemist Wiki images for cards. Disabled by default.",
+  "settingsWikiThanksTitle": "Thanks",
+  "settingsWikiThanksSubtitle": "Card images are provided by the Little Alchemist Wiki community.",
+  "settingsWikiOpenSite": "Open Little Alchemist Wiki",
+  "settingsWikiOpenFailed": "Could not open the wiki site.",
+  "settingsCatalogStatsTitle": "Catalog stats by rarity",
+  "settingsCatalogStatsTotal": "Total cards: {count}",
+  "@settingsCatalogStatsTotal": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "settingsAppInfoTitle": "About app",
+  "settingsAppVersion": "Version: {version}",
+  "@settingsAppVersion": {
+    "placeholders": {
+      "version": {}
+    }
+  },
+  "settingsAppBuild": "Build: {build}",
+  "@settingsAppBuild": {
+    "placeholders": {
+      "build": {}
+    }
+  },
+  "collectionDeleteOneFromGroup": "Delete one \"{name}\"? Group has {count} duplicates.",
+  "@collectionDeleteOneFromGroup": {
+    "placeholders": {
+      "name": {},
+      "count": {}
+    }
+  },
+  "collectionDeleteOne": "Delete \"{name}\" from collection?",
+  "@collectionDeleteOne": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+  "collectionDeleteTitle": "Remove from collection",
+  "collectionLimitWarning": "You have more than {limit} cards with one name: {names}. This set is not allowed in a deck.",
+  "@collectionLimitWarning": {
+    "placeholders": {
+      "limit": {},
+      "names": {}
+    }
+  },
+  "collectionAddOne": "One card",
+  "collectionAddMany": "Bulk add",
+  "collectionCollapseDuplicates": "Group duplicates",
+  "collectionHint": "Each row is one card. To edit, remove and add again. Deck limit: up to {limit} cards with one name.",
+  "@collectionHint": {
+    "placeholders": {
+      "limit": {}
+    }
+  },
+  "collectionStats": "{kinds} kinds - {copies} copies",
+  "@collectionStats": {
+    "placeholders": {
+      "kinds": {},
+      "copies": {}
+    }
+  },
+  "collectionEmpty": "Collection is empty. Add cards with buttons above.",
+  "collectionDuplicatesCount": "x{count} duplicates",
+  "@collectionDuplicatesCount": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "collectionDeleteOneTooltip": "Delete one",
+  "collectionAddToCollection": "Add to collection",
+  "deckNameRequired": "Enter deck name.",
+  "deckName": "Deck name",
+  "deckSeedCard": "Seed card",
+  "deckNotSelected": "Not selected",
+  "deckSeedHint": "Pick a card from collection. It will be first.",
+  "deckLevel": "Level: {level}",
+  "@deckLevel": {
+    "placeholders": {
+      "level": {}
+    }
+  },
+  "deckSelectCard": "Pick card",
+  "deckPickSeed": "Seed card",
+  "deckFillType": "Fill mode",
+  "deckFillHint": "After seed card, cards are added one by one.",
+  "deckSize": "Deck size: {size}",
+  "@deckSize": {
+    "placeholders": {
+      "size": {}
+    }
+  },
+  "deckMaxNonFusion": "Max non-Fusion cards: {count}",
+  "@deckMaxNonFusion": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "deckRarityRules": "Rarity rules",
+  "deckMinComboTier": "Min combo rarity considered: {tier}",
+  "@deckMinComboTier": {
+    "placeholders": {
+      "tier": {}
+    }
+  },
+  "deckRarityRulesHint": "Set minimum level for each rarity.",
+  "deckMinLevel": "Min level: {level}",
+  "@deckMinLevel": {
+    "placeholders": {
+      "level": {}
+    }
+  },
+  "deckNoSeedCandidates": "No suitable seed cards in collection.",
+  "deckPickSeedTitle": "Pick seed card from collection",
+  "comboLabIntro": "Pick two cards and levels. Missing Fusion result for a pair can be normal.",
+  "comboCardA": "Card A",
+  "comboCardB": "Card B",
+  "comboChange": "Change",
+  "comboPickA": "Pick card A",
+  "comboPickB": "Pick card B",
+  "comboResult": "Fusion result",
+  "comboPickBoth": "Pick both cards.",
+  "comboNoRecipe": "No Fusion recipe for \"{a}\" + \"{b}\".",
+  "@comboNoRecipe": {
+    "placeholders": {
+      "a": {},
+      "b": {}
+    }
+  },
+  "comboBattleLevel": "Battle Lv. {level}",
+  "@comboBattleLevel": {
+    "placeholders": {
+      "level": {}
+    }
+  },
+  "comboBaseStats": "Base stats: {attack} / {defense}",
+  "@comboBaseStats": {
+    "placeholders": {
+      "attack": {},
+      "defense": {}
+    }
+  },
+  "comboMaterialsDoubleOnyx": "Materials: two onyx tiers.",
+  "comboMaterialsMixed": "Materials: one onyx and one lower tier.",
+  "importDataTitle": "Files",
+  "importDataOrder": "Catalog build order:\n1) built-in AlchemyCardData.json\n2) assets/data_from_exel.txt supplement\n3) built-in CombinationPatch.json\n4) optional user JSON patch (additive only).",
+  "importPickPatch": "Pick user JSON patch",
+  "importResetPatch": "Reset user patch only",
+  "importClearCollectionQuestion": "Clear collection?",
+  "importClearCollection": "Clear combo-card collection",
+  "importLastMessage": "Last message",
+  "catalogNoCards": "No cards",
+  "catalogPickCard": "Pick card",
+  "catalogInstanceLevel": "Instance level: {level}",
+  "@catalogInstanceLevel": {
+    "placeholders": {
+      "level": {}
+    }
+  },
+  "catalogLevelWillBeSaved": "Level will be used for next add.",
+  "catalogFrameRarity": "Frame rarity: {tier} ({rarity}).",
+  "@catalogFrameRarity": {
+    "placeholders": {
+      "tier": {},
+      "rarity": {}
+    }
+  },
+  "catalogSearchHint": "Search in catalog",
+  "catalogRarityFilterTitle": "Data rarity filter",
+  "catalogBulkIntro": "Cards from catalog will be added by filters (now {kinds} kinds).",
+  "@catalogBulkIntro": {
+    "placeholders": {
+      "kinds": {}
+    }
+  },
+  "catalogAllowOverLimit": "Allow over limit ({limit} per deck name)",
+  "@catalogAllowOverLimit": {
+    "placeholders": {
+      "limit": {}
+    }
+  },
+  "catalogOverLimitHint": "If off, extra copies by name are skipped.",
+  "catalogCopiesPerCard": "Copies per card",
+  "catalogAllNewLevel": "Level for all new cards: {level}",
+  "@catalogAllNewLevel": {
+    "placeholders": {
+      "level": {}
+    }
+  },
+  "catalogLimitNotApplied": "Name limit is not applied.",
+  "catalogLimitAppliedHint": "With limit {limit} per name, some copies may be skipped.",
+  "@catalogLimitAppliedHint": {
+    "placeholders": {
+      "limit": {}
+    }
+  },
+  "catalogBulkAddTitle": "Bulk add",
+  "catalogBulkAddConfirm": "Add up to {total} cards ({kinds} x {copies}), level {level}.\n\n{limitLine}",
+  "@catalogBulkAddConfirm": {
+    "placeholders": {
+      "total": {},
+      "kinds": {},
+      "copies": {},
+      "level": {},
+      "limitLine": {}
+    }
+  },
+  "catalogAddAll": "Add all ({kinds} kinds)",
+  "@catalogAddAll": {
+    "placeholders": {
+      "kinds": {}
+    }
+  },
+  "importReplaceCollectionTitle": "Replace current collection?",
+  "importReplaceCollectionBody": "Current collection is not empty. Import will delete current data and replace it with file contents.",
+  "importReplaceCollectionConfirm": "Replace",
+  "importNotFoundTitle": "Cards not found",
+  "importNotFoundBody": "These cards are missing in catalog and were not imported:\n\n{names}",
+  "@importNotFoundBody": {
+    "placeholders": {
+      "names": {}
+    }
+  },
+  "importShareZip": "Share ZIP with newly downloaded images",
+  "importUserCollectionTitle": "User collection",
+  "importSimpleFormatHint": "Simple file format: one card per line -> card:level",
+  "importShareCollectionTxt": "Share collection (TXT)",
+  "importLoadCollectionTxt": "Import collection from TXT",
+  "importDeckSettingsTitle": "Deck settings",
+  "importDeckSettingsHint": "Export/import only deck auto-build settings. Invalid deck entries are skipped during import.",
+  "importExportDeckSettings": "Export deck settings (JSON)",
+  "importLoadDeckSettings": "Import deck settings (JSON)",
+  "importDeckSettingsExportAll": "Export all decks",
+  "importDeckSettingsExportOne": "Export \"{name}\"",
+  "@importDeckSettingsExportOne": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+  "settingsDecksTitle": "Decks",
+  "settingsDecksHint": "Manage deck profiles and auto-build parameters in Deck -> Settings and auto-fill.",
+  "settingsComboCatalogTitle": "Combo catalog",
+  "settingsSyntheticOnyxTitle": "Synthetic onyx Fusion results",
+  "settingsSyntheticOnyxSubtitle": "Adds onyx copies with boosted A/D and extra result rows for two onyx materials.",
+  "settingsFilesTitle": "Files",
+  "settingsFilesHint": "Import/export data, patches, and app service files.",
+  "settingsOpenFilesScreen": "Open files screen",
+  "settingsCatalogStatsByAbilityTitle": "Breakdown by ability and rarity",
+  "settingsCatalogStatsNoAbility": "No ability",
+  "deckFocusAttack": "Attack",
+  "deckFocusDefense": "Defense",
+  "deckFocusSumStats": "Total stats",
+  "deckStatusSummary": "{focus} · size {size} · seed: {seed}",
+  "@deckStatusSummary": {
+    "placeholders": {
+      "focus": {},
+      "size": {},
+      "seed": {}
+    }
+  },
+  "deckSeedNone": "none",
+  "deckNeedAtLeastOneCard": "Add at least one combo card to collection.",
+  "deckNotEnoughCardsForSize": "Collection has fewer cards than deck size ({size}).",
+  "@deckNotEnoughCardsForSize": {
+    "placeholders": {
+      "size": {}
+    }
+  },
+  "deckTapBuildHint": "Tap the button above to build.",
+  "deckHeuristicApprox": "Fast heuristic used; result is approximate.",
+  "deckPoolTruncated": "Used top-{count} cards by solo score (pool limit).",
+  "@deckPoolTruncated": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "deckScoreSummary": "Score: {total} (attack {attack} · defense {defense} · combo {combo})",
+  "@deckScoreSummary": {
+    "placeholders": {
+      "total": {},
+      "attack": {},
+      "defense": {},
+      "combo": {}
+    }
+  },
+  "deckDefaultName": "Deck {index}",
+  "@deckDefaultName": {
+    "placeholders": {
+      "index": {}
+    }
+  },
+  "deckComboVsStatsBalance": "Stats/Combo balance: {value}",
+  "@deckComboVsStatsBalance": {
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "deckComboVsStatsBalanceHint": "0 - only selected stats, 1 - only number of combos",
+  "deckComboVsHandBalance": "Combo / random hand balance: {value}",
+  "@deckComboVsHandBalance": {
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "deckComboVsHandBalanceHint": "0 - only pairwise picks (stats/combos above), 1 - only expected strength of a random 5-card hand by tier",
+  "comboResultId": "id {id}",
+  "@comboResultId": {
+    "placeholders": {
+      "id": {}
+    }
+  },
+  "comboPreviewStatsFromSheet": "A/D from fusion_onyx_stats: {attack} / {defense}",
+  "@comboPreviewStatsFromSheet": {
+    "placeholders": {
+      "attack": {},
+      "defense": {}
+    }
+  },
+  "comboPreviewStatsEstimated": "Estimated A/D: {attack} / {defense}",
+  "@comboPreviewStatsEstimated": {
+    "placeholders": {
+      "attack": {},
+      "defense": {}
+    }
+  },
+  "loadSaveDecksStorageFailed": "Failed to save decks to storage. Deck settings may be lost after restart.",
+  "loadCatalogLoaded": "Catalog loaded: AlchemyCardData + Excel + patches ({count} cards)",
+  "@loadCatalogLoaded": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "loadCatalogError": "Catalog load error: {error}",
+  "@loadCatalogError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "loadOpenFilePickerFailed": "Could not open file picker: {error}",
+  "@loadOpenFilePickerFailed": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "loadImportPatchCancelled": "Patch import cancelled: file not selected.",
+  "loadCouldNotReadFile": "Could not read file.",
+  "loadFileInvalidJson": "File is not valid JSON: {error}",
+  "@loadFileInvalidJson": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "loadPatchSavedCatalogRebuilt": "Patch saved; catalog rebuilt ({count} cards)",
+  "@loadPatchSavedCatalogRebuilt": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "loadPatchAppliedSessionOnly": "Patch applied for current session ({count} cards), path not saved",
+  "@loadPatchAppliedSessionOnly": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "loadUserPatchReset": "User patch reset; catalog ({count} cards)",
+  "@loadUserPatchReset": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "loadNoStoragePermission": "No permission to save files. Allow storage access in app settings.",
+  "loadNoImageDataForExport": "No image data available for export.",
+  "loadNoNewDownloadedFilesForExport": "No newly downloaded files to export (images from assets/images are excluded).",
+  "loadShareSheetOpenedSaveToFiles": "System Share sheet opened. Select Save to Files and destination folder.",
+  "loadExportedImagesZip": "Exported images: {count}\nZIP: {path}",
+  "@loadExportedImagesZip": {
+    "placeholders": {
+      "count": {},
+      "path": {}
+    }
+  },
+  "loadZipSavedToAppFiles": "System save dialog is unavailable. ZIP saved to app files:\n{path}",
+  "@loadZipSavedToAppFiles": {
+    "placeholders": {
+      "path": {}
+    }
+  },
+  "loadZipExportError": "ZIP export error: {error}",
+  "@loadZipExportError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "loadCollectionEmptyNothingToExport": "Collection is empty, nothing to export.",
+  "loadNoValidCardsForExport": "No valid cards found for export.",
+  "loadExportedCards": "Exported cards: {count}\nFile: {path}",
+  "@loadExportedCards": {
+    "placeholders": {
+      "count": {},
+      "path": {}
+    }
+  },
+  "loadCollectionFileSavedToAppFiles": "System save dialog is unavailable. Collection file saved to app files:\n{path}",
+  "@loadCollectionFileSavedToAppFiles": {
+    "placeholders": {
+      "path": {}
+    }
+  },
+  "loadCollectionExportError": "Collection export error: {error}",
+  "@loadCollectionExportError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "loadImportCollectionCancelled": "Collection import cancelled: file not selected.",
+  "loadCouldNotReadCollectionFile": "Could not read collection file.",
+  "loadImportCompleted": "Import completed: {imported} cards. Skipped lines: {skipped}. Cards not found: {notFound}.",
+  "@loadImportCompleted": {
+    "placeholders": {
+      "imported": {},
+      "skipped": {},
+      "notFound": {}
+    }
+  },
+  "loadCouldNotSaveDecks": "Could not save decks.",
+  "loadDeckSettingsExportFailedNoDeck": "Select a deck to export.",
+  "loadDeckSettingsExportEmpty": "No deck settings to export.",
+  "loadDeckSettingsExported": "Exported deck settings: {count}\nFile: {path}",
+  "@loadDeckSettingsExported": {
+    "placeholders": {
+      "count": {},
+      "path": {}
+    }
+  },
+  "loadDeckSettingsSavedToAppFiles": "System save dialog is unavailable. Deck settings file saved to app files:\n{path}",
+  "@loadDeckSettingsSavedToAppFiles": {
+    "placeholders": {
+      "path": {}
+    }
+  },
+  "loadDeckSettingsExportError": "Deck settings export error: {error}",
+  "@loadDeckSettingsExportError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "loadImportDeckSettingsCancelled": "Deck settings import cancelled: file not selected.",
+  "loadCouldNotReadDeckSettingsFile": "Could not read deck settings file.",
+  "loadDeckSettingsInvalidJson": "Deck settings file is not valid JSON: {error}",
+  "@loadDeckSettingsInvalidJson": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "loadDeckSettingsInvalidStructure": "Deck settings file has invalid structure.",
+  "loadDeckSettingsUnsupportedFormat": "Unsupported deck settings file format.",
+  "loadDeckSettingsNothingImported": "No valid deck settings imported. Skipped entries: {skipped}.",
+  "@loadDeckSettingsNothingImported": {
+    "placeholders": {
+      "skipped": {}
+    }
+  },
+  "loadDeckSettingsImported": "Deck settings imported: {imported}. Skipped invalid entries: {skipped}.",
+  "@loadDeckSettingsImported": {
+    "placeholders": {
+      "imported": {},
+      "skipped": {}
+    }
+  },
+  "loadSyntheticOnyxEnabled": "Catalog augmented with synthetic Fusion onyx results ({count} cards)",
+  "@loadSyntheticOnyxEnabled": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "loadSyntheticOnyxDisabled": "Synthetic Fusion onyx results disabled ({count} cards)",
+  "@loadSyntheticOnyxDisabled": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "tabShopSeasons": "Shop seasons",
+  "shopPackScheduleLoadError": "Could not load shop schedule: {error}",
+  "@shopPackScheduleLoadError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "shopPackInStoreNow": "In shop now",
+  "shopPackWindowDates": "In shop: {start} – {end}",
+  "@shopPackWindowDates": {
+    "placeholders": {
+      "start": {},
+      "end": {}
+    }
+  },
+  "shopPackCardLevel": "Card level",
+  "shopPackCardsInPack": "Cards in this pack",
+  "shopPackNoContents": "No card list for this pack yet. Add names in shop_pack_contents.json.",
+  "shopPackUnknownCard": "Not in catalog: {name}",
+  "@shopPackUnknownCard": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+  "shopPackNoRotationScheduled": "No matching slot in app rotation schedule",
+  "shopPackWikiOpenFailed": "Could not open wiki: {url}",
+  "@shopPackWikiOpenFailed": {
+    "placeholders": {
+      "url": {}
+    }
+  },
+  "shopPackOtherCategory": "Other packs (not in app rotation)",
+  "shopPackGoldCombo": "Gold: {card}",
+  "@shopPackGoldCombo": {
+    "placeholders": {
+      "card": {}
+    }
+  },
+  "shopPackOnyxCombo": "Onyx: {card}",
+  "@shopPackOnyxCombo": {
+    "placeholders": {
+      "card": {}
+    }
+  },
+  "eventsShopTitle": "Shop",
+  "eventsShopSubtitle": "Packs in shop",
+  "eventsArenaTitle": "Arena",
+  "eventsArenaSubtitle": "Arena shop",
+  "eventsPortalTitle": "Portal",
+  "eventsPortalSubtitle": "Portal rewards"
+}

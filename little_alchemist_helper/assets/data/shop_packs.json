@@ -1,0 +1,1427 @@
+{
+  "shopVisibleDays": 4,
+  "packs": [
+    {
+      "id": "2026_02_11_primate",
+      "displayName": "Primate",
+      "shopStart": "2026-02-11",
+      "section": "Feb-March",
+      "occasion": "Prehistoric",
+      "gcc": "Monkey",
+      "imageFile": "2026_02_11_primate.png"
+    },
+    {
+      "id": "2026_02_13_combat",
+      "displayName": "Combat",
+      "shopStart": "2026-02-13",
+      "section": "Feb-March",
+      "occasion": "Villain",
+      "gcc": "War",
+      "imageFile": "2026_02_13_combat.png"
+    },
+    {
+      "id": "2026_02_16_scaly",
+      "displayName": "Scaly",
+      "shopStart": "2026-02-16",
+      "section": "Feb-March",
+      "occasion": "Turtle",
+      "gcc": "Reptile",
+      "imageFile": "2026_02_16_scaly.png"
+    },
+    {
+      "id": "2026_02_18_vanity",
+      "displayName": "Vanity",
+      "shopStart": "2026-02-18",
+      "section": "Feb-March",
+      "occasion": "Cat",
+      "gcc": "Beauty",
+      "imageFile": "2026_02_18_vanity.png"
+    },
+    {
+      "id": "2026_02_20_regal",
+      "displayName": "Regal",
+      "shopStart": "2026-02-20",
+      "section": "Feb-March",
+      "occasion": "Chincilla",
+      "gcc": "Royalty",
+      "imageFile": "2026_02_20_regal.png"
+    },
+    {
+      "id": "2026_02_23_scheming",
+      "displayName": "Scheming",
+      "shopStart": "2026-02-23",
+      "section": "Feb-March",
+      "occasion": "Leader",
+      "gcc": "Royal Game",
+      "imageFile": "2026_02_23_scheming.png"
+    },
+    {
+      "id": "2026_02_25_confectionery",
+      "displayName": "Confectionery",
+      "shopStart": "2026-02-25",
+      "section": "Feb-March",
+      "occasion": "Hammer",
+      "gcc": "Sweet",
+      "imageFile": "2026_02_25_confectionery.png"
+    },
+    {
+      "id": "2026_02_27_muscle",
+      "displayName": "Muscle",
+      "shopStart": "2026-02-27",
+      "section": "Feb-March",
+      "occasion": "Sword",
+      "gcc": "Strength",
+      "imageFile": "2026_02_27_muscle.png"
+    },
+    {
+      "id": "2026_03_02_fable",
+      "displayName": "Fable",
+      "shopStart": "2026-03-02",
+      "section": "Feb-March",
+      "occasion": "Fairy",
+      "gcc": "Fairytale",
+      "imageFile": "2026_03_02_fable.png"
+    },
+    {
+      "id": "2026_03_04_swift",
+      "displayName": "Swift",
+      "shopStart": "2026-03-04",
+      "section": "Feb-March",
+      "occasion": "Energy",
+      "gcc": "Speed",
+      "imageFile": "2026_03_04_swift.png"
+    },
+    {
+      "id": "2026_03_06_innovation",
+      "displayName": "Innovation",
+      "shopStart": "2026-03-06",
+      "section": "Feb-March",
+      "occasion": "Science",
+      "gcc": "Invention",
+      "imageFile": "2026_03_06_innovation.png"
+    },
+    {
+      "id": "2026_03_09_canine",
+      "displayName": "Canine",
+      "shopStart": "2026-03-09",
+      "section": "Feb-March",
+      "occasion": "Knight",
+      "gcc": "Dog",
+      "imageFile": "2026_03_09_canine.png"
+    },
+    {
+      "id": "2026_03_11_dark_age",
+      "displayName": "Dark Age",
+      "shopStart": "2026-03-11",
+      "section": "Feb-March",
+      "occasion": "Time",
+      "gcc": "Medieval",
+      "imageFile": "2026_03_11_dark_age.png"
+    },
+    {
+      "id": "2026_03_13_the_dark",
+      "displayName": "The Dark",
+      "shopStart": "2026-03-13",
+      "section": "Feb-March",
+      "occasion": "Madness",
+      "gcc": "Darkness",
+      "imageFile": "2026_03_13_the_dark.png"
+    },
+    {
+      "id": "2026_03_16_mon",
+      "displayName": "Mon",
+      "shopStart": "2026-03-16",
+      "section": "Feb-March",
+      "occasion": "Dragon",
+      "gcc": "Pocket Pet",
+      "imageFile": "2026_03_16_mon.png"
+    },
+    {
+      "id": "2026_03_18_meta",
+      "displayName": "Meta",
+      "shopStart": "2026-03-18",
+      "section": "Feb-March",
+      "occasion": "Multiples",
+      "gcc": "Card",
+      "imageFile": "2026_03_18_meta.png"
+    },
+    {
+      "id": "2026_03_20_slumber",
+      "displayName": "Slumber",
+      "shopStart": "2026-03-20",
+      "section": "Feb-March",
+      "occasion": "Bat",
+      "gcc": "Sleep",
+      "imageFile": "2026_03_20_slumber.png"
+    },
+    {
+      "id": "2026_03_23_half_half",
+      "displayName": "Half-Half",
+      "shopStart": "2026-03-23",
+      "section": "Feb-March",
+      "occasion": "Mutation",
+      "gcc": "Hybrid Combo",
+      "imageFile": "2026_03_23_half_half.png"
+    },
+    {
+      "id": "2026_03_25_subterranean",
+      "displayName": "Subterranean",
+      "shopStart": "2026-03-25",
+      "section": "Feb-March",
+      "occasion": "Sci-Fi",
+      "gcc": "Underground",
+      "imageFile": "2026_03_25_subterranean.png"
+    },
+    {
+      "id": "2026_03_27_hope",
+      "displayName": "Hope",
+      "shopStart": "2026-03-27",
+      "section": "Feb-March",
+      "occasion": "Love",
+      "gcc": "Hopefulness",
+      "imageFile": "2026_03_27_hope.png"
+    },
+    {
+      "id": "2026_03_30_bug",
+      "displayName": "Bug",
+      "shopStart": "2026-03-30",
+      "section": "Feb-March",
+      "occasion": "Superhero",
+      "gcc": "Insect",
+      "imageFile": "2026_03_30_bug.png"
+    },
+    {
+      "id": "2026_04_01_phantom",
+      "displayName": "Phantom",
+      "shopStart": "2026-04-01",
+      "section": "April",
+      "occasion": "Water",
+      "gcc": "Spirit",
+      "imageFile": "2026_04_01_phantom.png"
+    },
+    {
+      "id": "2026_04_03_arachnid",
+      "displayName": "Arachnid",
+      "shopStart": "2026-04-03",
+      "section": "April",
+      "occasion": "Affliction",
+      "gcc": "Arachnid",
+      "imageFile": "2026_04_03_arachnid.png"
+    },
+    {
+      "id": "2026_04_06_tortoise",
+      "displayName": "Tortoise",
+      "shopStart": "2026-04-06",
+      "section": "April",
+      "occasion": "Death",
+      "gcc": "Turtle",
+      "imageFile": "2026_04_06_tortoise.png"
+    },
+    {
+      "id": "2026_04_08_first_aid",
+      "displayName": "First Aid",
+      "shopStart": "2026-04-08",
+      "section": "April",
+      "occasion": "Life",
+      "gcc": "Healing",
+      "imageFile": "2026_04_08_first_aid.png"
+    },
+    {
+      "id": "2026_04_10_sahara",
+      "displayName": "Sahara",
+      "shopStart": "2026-04-10",
+      "section": "April",
+      "occasion": "Relic",
+      "gcc": "Desert",
+      "imageFile": "2026_04_10_sahara.png"
+    },
+    {
+      "id": "2026_04_13_millionaire",
+      "displayName": "Millionaire",
+      "shopStart": "2026-04-13",
+      "section": "April",
+      "occasion": "Human",
+      "gcc": "Wealth",
+      "imageFile": "2026_04_13_millionaire.png"
+    },
+    {
+      "id": "2026_04_15_end_of_world",
+      "displayName": "End of World",
+      "shopStart": "2026-04-15",
+      "section": "April",
+      "occasion": "Strength",
+      "gcc": "Apocalypse",
+      "imageFile": "2026_04_15_end_of_world.png"
+    },
+    {
+      "id": "2026_04_17_portal",
+      "displayName": "Portal",
+      "shopStart": "2026-04-17",
+      "section": "April",
+      "occasion": "Extraterrestrial",
+      "gcc": "Portal",
+      "imageFile": "2026_04_17_portal.png"
+    },
+    {
+      "id": "2026_04_20_frozen",
+      "displayName": "Frozen",
+      "shopStart": "2026-04-20",
+      "section": "April",
+      "occasion": "Sun",
+      "gcc": "Ice",
+      "imageFile": "2026_04_20_frozen.png"
+    },
+    {
+      "id": "2026_04_22_wizarding",
+      "displayName": "Wizarding",
+      "shopStart": "2026-04-22",
+      "section": "April",
+      "occasion": "Magic",
+      "gcc": "Wizarding School",
+      "imageFile": "2026_04_22_wizarding.png"
+    },
+    {
+      "id": "2026_04_24_gargantuan",
+      "displayName": "Gargantuan",
+      "shopStart": "2026-04-24",
+      "section": "April",
+      "occasion": "Anger",
+      "gcc": "Giant",
+      "imageFile": "2026_04_24_gargantuan.png"
+    },
+    {
+      "id": "2026_04_27_botanical",
+      "displayName": "Botanical",
+      "shopStart": "2026-04-27",
+      "section": "April",
+      "occasion": "Invention",
+      "gcc": "Plant",
+      "imageFile": "2026_04_27_botanical.png"
+    },
+    {
+      "id": "2026_04_29_mutant",
+      "displayName": "Mutant",
+      "shopStart": "2026-04-29",
+      "section": "April",
+      "occasion": "Sci-Fi",
+      "gcc": "Mutation",
+      "imageFile": "2026_04_29_mutant.png"
+    },
+    {
+      "id": "2026_05_01_pirate",
+      "displayName": "Pirate",
+      "shopStart": "2026-05-01",
+      "section": "May",
+      "occasion": "Monkey",
+      "gcc": "Pirate",
+      "imageFile": "2026_05_01_pirate.png"
+    },
+    {
+      "id": "2026_05_04_far_away",
+      "displayName": "Far Away",
+      "shopStart": "2026-05-04",
+      "section": "May",
+      "occasion": "Space",
+      "gcc": "Galaxy War",
+      "imageFile": "2026_05_04_far_away.png"
+    },
+    {
+      "id": "2026_05_06_melody",
+      "displayName": "Melody",
+      "shopStart": "2026-05-06",
+      "section": "May",
+      "occasion": "Monster",
+      "gcc": "Music",
+      "imageFile": "2026_05_06_melody.png"
+    },
+    {
+      "id": "2026_05_08_shrine",
+      "displayName": "Shrine",
+      "shopStart": "2026-05-08",
+      "section": "May",
+      "occasion": "The Chosen One",
+      "gcc": "Shrine",
+      "imageFile": "2026_05_08_shrine.png"
+    },
+    {
+      "id": "2026_05_11_chosen_hero",
+      "displayName": "Chosen Hero",
+      "shopStart": "2026-05-11",
+      "section": "May",
+      "occasion": "Knight",
+      "gcc": "The Chosen One",
+      "imageFile": "2026_05_11_chosen_hero.png"
+    },
+    {
+      "id": "2026_05_13_regal",
+      "displayName": "Regal",
+      "shopStart": "2026-05-13",
+      "section": "May",
+      "occasion": "Chincilla",
+      "gcc": "Royalty",
+      "imageFile": "2026_05_13_regal.png"
+    },
+    {
+      "id": "2026_05_15_skeletal",
+      "displayName": "Skeletal",
+      "shopStart": "2026-05-15",
+      "section": "May",
+      "occasion": "Cursed",
+      "gcc": "Bone",
+      "imageFile": "2026_05_15_skeletal.png"
+    },
+    {
+      "id": "2026_05_18_multiplicity",
+      "displayName": "Multiplicity",
+      "shopStart": "2026-05-18",
+      "section": "May",
+      "occasion": "Metal",
+      "gcc": "Multiples",
+      "imageFile": "2026_05_18_multiplicity.png"
+    },
+    {
+      "id": "2026_05_20_muscle",
+      "displayName": "Muscle",
+      "shopStart": "2026-05-20",
+      "section": "May",
+      "occasion": "Sword",
+      "gcc": "Strength",
+      "imageFile": "2026_05_20_muscle.png"
+    },
+    {
+      "id": "2026_05_22_dark_age",
+      "displayName": "Dark Age",
+      "shopStart": "2026-05-22",
+      "section": "May",
+      "occasion": "Time",
+      "gcc": "Medieval",
+      "imageFile": "2026_05_22_dark_age.png"
+    },
+    {
+      "id": "2026_05_25_jungle",
+      "displayName": "Jungle",
+      "shopStart": "2026-05-25",
+      "section": "May",
+      "occasion": "Prehistoric",
+      "gcc": "Jungle",
+      "imageFile": "2026_05_25_jungle.png"
+    },
+    {
+      "id": "2026_05_27_animation",
+      "displayName": "Animation",
+      "shopStart": "2026-05-27",
+      "section": "May",
+      "occasion": "Toy",
+      "gcc": "Cartoon",
+      "imageFile": "2026_05_27_animation.png"
+    },
+    {
+      "id": "2026_05_29_spycraft",
+      "displayName": "Spycraft",
+      "shopStart": "2026-05-29",
+      "section": "May",
+      "occasion": "Camouflage",
+      "gcc": "Spy",
+      "imageFile": "2026_05_29_spycraft.png"
+    },
+    {
+      "id": "2026_06_01_confectionery",
+      "displayName": "Confectionery",
+      "shopStart": "2026-06-01",
+      "section": "June",
+      "occasion": "Hammer",
+      "gcc": "Sweet",
+      "imageFile": "2026_06_01_confectionery.png"
+    },
+    {
+      "id": "2026_06_03_commander",
+      "displayName": "Commander",
+      "shopStart": "2026-06-03",
+      "section": "June",
+      "occasion": "Undead",
+      "gcc": "Leader",
+      "imageFile": "2026_06_03_commander.png"
+    },
+    {
+      "id": "2026_06_05_future_fight",
+      "displayName": "Future Fight",
+      "shopStart": "2026-06-05",
+      "section": "June",
+      "occasion": "War",
+      "gcc": "Future Fight",
+      "imageFile": "2026_06_05_future_fight.png"
+    },
+    {
+      "id": "2026_06_08_cloaked",
+      "displayName": "Cloaked",
+      "shopStart": "2026-06-08",
+      "section": "June",
+      "occasion": "Void",
+      "gcc": "Camouflage",
+      "imageFile": "2026_06_08_cloaked.png"
+    },
+    {
+      "id": "2026_06_10_fantasy",
+      "displayName": "Fantasy",
+      "shopStart": "2026-06-10",
+      "section": "June",
+      "occasion": "Fairy Tale",
+      "gcc": "Precious Ring Lore",
+      "imageFile": "2026_06_10_fantasy.png"
+    },
+    {
+      "id": "2026_06_12_sports",
+      "displayName": "Sports",
+      "shopStart": "2026-06-12",
+      "section": "June",
+      "occasion": "Speed",
+      "gcc": "Sports",
+      "imageFile": "2026_06_12_sports.png"
+    },
+    {
+      "id": "2026_06_15_subterranean",
+      "displayName": "Subterranean",
+      "shopStart": "2026-06-15",
+      "section": "June",
+      "occasion": "Sci-fi",
+      "gcc": "Underground",
+      "imageFile": "2026_06_15_subterranean.png"
+    },
+    {
+      "id": "2026_06_17_futuristic",
+      "displayName": "Futuristic",
+      "shopStart": "2026-06-17",
+      "section": "June",
+      "occasion": "Water",
+      "gcc": "Sci-Fi",
+      "imageFile": "2026_06_17_futuristic.png"
+    },
+    {
+      "id": "2026_06_19_summertide",
+      "displayName": "Summertide",
+      "shopStart": "2026-06-19",
+      "section": "June",
+      "occasion": "Arcade",
+      "gcc": "Summertide",
+      "imageFile": "2026_06_19_summertide.png"
+    },
+    {
+      "id": "2026_06_22_half_half",
+      "displayName": "Half-Half",
+      "shopStart": "2026-06-22",
+      "section": "June",
+      "occasion": "Mutation",
+      "gcc": "Hybrid Combo",
+      "imageFile": "2026_06_22_half_half.png"
+    },
+    {
+      "id": "2026_06_24_hypno",
+      "displayName": "Hypno",
+      "shopStart": "2026-06-24",
+      "section": "June",
+      "occasion": "Werewolf",
+      "gcc": "Mind Control",
+      "imageFile": "2026_06_24_hypno.png"
+    },
+    {
+      "id": "2026_06_26_viking",
+      "displayName": "Viking",
+      "shopStart": "2026-06-26",
+      "section": "June",
+      "occasion": "Horn",
+      "gcc": "Viking",
+      "imageFile": "2026_06_26_viking.png"
+    },
+    {
+      "id": "2026_06_29_accursed",
+      "displayName": "Accursed",
+      "shopStart": "2026-06-29",
+      "section": "June",
+      "occasion": "Superhero",
+      "gcc": "Cursed",
+      "imageFile": "2026_06_29_accursed.png"
+    },
+    {
+      "id": "2026_07_01_rat",
+      "displayName": "Rat",
+      "shopStart": "2026-07-01",
+      "section": "July",
+      "occasion": "Wizard",
+      "gcc": "Rodent",
+      "imageFile": "2026_07_01_rat.png"
+    },
+    {
+      "id": "2026_07_03_clairvoyant",
+      "displayName": "Clairvoyant",
+      "shopStart": "2026-07-03",
+      "section": "July",
+      "occasion": "Insect",
+      "gcc": "Psychic",
+      "imageFile": "2026_07_03_clairvoyant.png"
+    },
+    {
+      "id": "2026_07_06_aviary",
+      "displayName": "Aviary",
+      "shopStart": "2026-07-06",
+      "section": "July",
+      "occasion": "Win",
+      "gcc": "Bird",
+      "imageFile": "2026_07_06_aviary.png"
+    },
+    {
+      "id": "2026_07_08_fun",
+      "displayName": "Fun",
+      "shopStart": "2026-07-08",
+      "section": "July",
+      "occasion": "Bear",
+      "gcc": "Toy",
+      "imageFile": "2026_07_08_fun.png"
+    },
+    {
+      "id": "2026_07_10_atomic_aftermath",
+      "displayName": "Atomic Aftermath",
+      "shopStart": "2026-07-10",
+      "section": "July",
+      "occasion": "Apocalypse",
+      "gcc": "Atomic Aftermatch",
+      "imageFile": "2026_07_10_atomic_aftermath.png"
+    },
+    {
+      "id": "2026_07_13_machine",
+      "displayName": "Machine",
+      "shopStart": "2026-07-13",
+      "section": "July",
+      "occasion": "Elf",
+      "gcc": "Robot",
+      "imageFile": "2026_07_13_machine.png"
+    },
+    {
+      "id": "2026_07_15_parasitic",
+      "displayName": "Parasitic",
+      "shopStart": "2026-07-15",
+      "section": "July",
+      "occasion": "Knowledge",
+      "gcc": "Parasite",
+      "imageFile": "2026_07_15_parasitic.png"
+    },
+    {
+      "id": "2026_07_17_combat",
+      "displayName": "Combat",
+      "shopStart": "2026-07-17",
+      "section": "July",
+      "occasion": "Villain",
+      "gcc": "War",
+      "imageFile": "2026_07_17_combat.png"
+    },
+    {
+      "id": "2026_07_20_plague",
+      "displayName": "Plague",
+      "shopStart": "2026-07-20",
+      "section": "July",
+      "occasion": "Water Serpent",
+      "gcc": "Affliction",
+      "imageFile": "2026_07_20_plague.png"
+    },
+    {
+      "id": "2026_07_22_primate",
+      "displayName": "Primate",
+      "shopStart": "2026-07-22",
+      "section": "July",
+      "occasion": "Prehistoric",
+      "gcc": "Monkey",
+      "imageFile": "2026_07_22_primate.png"
+    },
+    {
+      "id": "2026_07_24_oceana",
+      "displayName": "Oceana",
+      "shopStart": "2026-07-24",
+      "section": "July",
+      "occasion": "Underwater",
+      "gcc": "Fish",
+      "imageFile": "2026_07_24_oceana.png"
+    },
+    {
+      "id": "2026_07_27_scaly",
+      "displayName": "Scaly",
+      "shopStart": "2026-07-27",
+      "section": "July",
+      "occasion": "Turtle",
+      "gcc": "Reptile",
+      "imageFile": "2026_07_27_scaly.png"
+    },
+    {
+      "id": "2026_07_29_frozen",
+      "displayName": "Frozen",
+      "shopStart": "2026-07-29",
+      "section": "July",
+      "occasion": "Sun",
+      "gcc": "Ice",
+      "imageFile": "2026_07_29_frozen.png"
+    },
+    {
+      "id": "2026_07_31_meta",
+      "displayName": "Meta",
+      "shopStart": "2026-07-31",
+      "section": "July",
+      "occasion": "Multiples",
+      "gcc": "Card",
+      "imageFile": "2026_07_31_meta.png"
+    },
+    {
+      "id": "2026_08_03_tortoise",
+      "displayName": "Tortoise",
+      "shopStart": "2026-08-03",
+      "section": "August",
+      "occasion": "Death",
+      "gcc": "Turtle",
+      "imageFile": "2026_08_03_tortoise.png"
+    },
+    {
+      "id": "2026_08_05_carnage",
+      "displayName": "Carnage",
+      "shopStart": "2026-08-05",
+      "section": "August",
+      "occasion": "Weapon",
+      "gcc": "Destruction",
+      "imageFile": "2026_08_05_carnage.png"
+    },
+    {
+      "id": "2026_08_07_regal",
+      "displayName": "Regal",
+      "shopStart": "2026-08-07",
+      "section": "August",
+      "occasion": "Chincilla",
+      "gcc": "Royalty",
+      "imageFile": "2026_08_07_regal.png"
+    },
+    {
+      "id": "2026_08_10_scheming",
+      "displayName": "Scheming",
+      "shopStart": "2026-08-10",
+      "section": "August",
+      "occasion": "Leader",
+      "gcc": "Royal Game",
+      "imageFile": "2026_08_10_scheming.png"
+    },
+    {
+      "id": "2026_08_12_muscle",
+      "displayName": "Muscle",
+      "shopStart": "2026-08-12",
+      "section": "August",
+      "occasion": "Sword",
+      "gcc": "Strength",
+      "imageFile": "2026_08_12_muscle.png"
+    },
+    {
+      "id": "2026_08_14_adventure",
+      "displayName": "Adventure",
+      "shopStart": "2026-08-14",
+      "section": "August",
+      "occasion": "Wealth",
+      "gcc": "Adventure",
+      "imageFile": "2026_08_14_adventure.png"
+    },
+    {
+      "id": "2026_08_17_booming_spike",
+      "displayName": "Booming Spike",
+      "shopStart": "2026-08-17",
+      "section": "August",
+      "occasion": "Demon",
+      "gcc": "Horn",
+      "imageFile": "2026_08_17_booming_spike.png"
+    },
+    {
+      "id": "2026_08_19_canine",
+      "displayName": "Canine",
+      "shopStart": "2026-08-19",
+      "section": "August",
+      "occasion": "Knight",
+      "gcc": "Dog",
+      "imageFile": "2026_08_19_canine.png"
+    },
+    {
+      "id": "2026_08_21_innovation",
+      "displayName": "Innovation",
+      "shopStart": "2026-08-21",
+      "section": "August",
+      "occasion": "Science",
+      "gcc": "Invention",
+      "imageFile": "2026_08_21_innovation.png"
+    },
+    {
+      "id": "2026_08_24_aquatic",
+      "displayName": "Aquatic",
+      "shopStart": "2026-08-24",
+      "section": "August",
+      "occasion": "Trident",
+      "gcc": "Underwater",
+      "imageFile": "2026_08_24_aquatic.png"
+    },
+    {
+      "id": "2026_08_26_bloody",
+      "displayName": "Bloody",
+      "shopStart": "2026-08-26",
+      "section": "August",
+      "occasion": "Earth",
+      "gcc": "Blood",
+      "imageFile": "2026_08_26_bloody.png"
+    },
+    {
+      "id": "2026_08_28_hope",
+      "displayName": "Hope",
+      "shopStart": "2026-08-28",
+      "section": "August",
+      "occasion": "Love",
+      "gcc": "Hopefulness",
+      "imageFile": "2026_08_28_hope.png"
+    },
+    {
+      "id": "2026_08_31_wizarding",
+      "displayName": "Wizarding",
+      "shopStart": "2026-08-31",
+      "section": "August",
+      "occasion": "Magic",
+      "gcc": "Wizarding School",
+      "imageFile": "2026_08_31_wizarding.png"
+    },
+    {
+      "id": "2026_09_02_slumber",
+      "displayName": "Slumber",
+      "shopStart": "2026-09-02",
+      "section": "September",
+      "occasion": "Bat",
+      "gcc": "Sleep",
+      "imageFile": "2026_09_02_slumber.png"
+    },
+    {
+      "id": "2026_09_04_vanity",
+      "displayName": "Vanity",
+      "shopStart": "2026-09-04",
+      "section": "September",
+      "occasion": "Cat",
+      "gcc": "Beauty",
+      "imageFile": "2026_09_04_vanity.png"
+    },
+    {
+      "id": "2026_09_07_slime",
+      "displayName": "Slime",
+      "shopStart": "2026-09-07",
+      "section": "September",
+      "occasion": "Poison",
+      "gcc": "Blob",
+      "imageFile": "2026_09_07_slime.png"
+    },
+    {
+      "id": "2026_09_09_end_of_world",
+      "displayName": "End of World",
+      "shopStart": "2026-09-09",
+      "section": "September",
+      "occasion": "Strength",
+      "gcc": "Apocalypse",
+      "imageFile": "2026_09_09_end_of_world.png"
+    },
+    {
+      "id": "2026_09_11_arachnid",
+      "displayName": "Arachnid",
+      "shopStart": "2026-09-11",
+      "section": "September",
+      "occasion": "Affliction",
+      "gcc": "Arachnid",
+      "imageFile": "2026_09_11_arachnid.png"
+    },
+    {
+      "id": "2026_09_14_melody",
+      "displayName": "Melody",
+      "shopStart": "2026-09-14",
+      "section": "September",
+      "occasion": "Monster",
+      "gcc": "Music",
+      "imageFile": "2026_09_14_melody.png"
+    },
+    {
+      "id": "2026_09_16_botanical",
+      "displayName": "Botanical",
+      "shopStart": "2026-09-16",
+      "section": "September",
+      "occasion": "Invention",
+      "gcc": "Plant",
+      "imageFile": "2026_09_16_botanical.png"
+    },
+    {
+      "id": "2026_09_18_half_half",
+      "displayName": "Half-Half",
+      "shopStart": "2026-09-18",
+      "section": "September",
+      "occasion": "Mutation",
+      "gcc": "Hybrid Combo",
+      "imageFile": "2026_09_18_half_half.png"
+    },
+    {
+      "id": "2026_09_21_fable",
+      "displayName": "Fable",
+      "shopStart": "2026-09-21",
+      "section": "September",
+      "occasion": "Fairy",
+      "gcc": "Fairy Tale",
+      "imageFile": "2026_09_21_fable.png"
+    },
+    {
+      "id": "2026_09_23_multiplicity",
+      "displayName": "Multiplicity",
+      "shopStart": "2026-09-23",
+      "section": "September",
+      "occasion": "Metal",
+      "gcc": "Multiples",
+      "imageFile": "2026_09_23_multiplicity.png"
+    },
+    {
+      "id": "2026_09_25_phantom",
+      "displayName": "Phantom",
+      "shopStart": "2026-09-25",
+      "section": "September",
+      "occasion": "Water",
+      "gcc": "Spirit",
+      "imageFile": "2026_09_25_phantom.png"
+    },
+    {
+      "id": "2026_09_28_portal",
+      "displayName": "Portal",
+      "shopStart": "2026-09-28",
+      "section": "September",
+      "occasion": "Extraterrestrial",
+      "gcc": "Portal",
+      "imageFile": "2026_09_28_portal.png"
+    },
+    {
+      "id": "2026_09_30_tiny",
+      "displayName": "Tiny",
+      "shopStart": "2026-09-30",
+      "section": "September",
+      "occasion": "Insect",
+      "gcc": "Miniature",
+      "imageFile": "2026_09_30_tiny.png"
+    },
+    {
+      "id": "2026_10_02_sahara",
+      "displayName": "Sahara",
+      "shopStart": "2026-10-02",
+      "section": "October",
+      "occasion": "Relics",
+      "gcc": "Desert",
+      "imageFile": "2026_10_02_sahara.png"
+    },
+    {
+      "id": "2026_10_05_rage",
+      "displayName": "Rage",
+      "shopStart": "2026-10-05",
+      "section": "October",
+      "occasion": "Void",
+      "gcc": "Anger",
+      "imageFile": "2026_10_05_rage.png"
+    },
+    {
+      "id": "2026_10_07_swift",
+      "displayName": "Swift",
+      "shopStart": "2026-10-07",
+      "section": "October",
+      "occasion": "Energy",
+      "gcc": "Speed",
+      "imageFile": "2026_10_07_swift.png"
+    },
+    {
+      "id": "2026_10_09_insanity",
+      "displayName": "Insanity",
+      "shopStart": "2026-10-09",
+      "section": "October",
+      "occasion": "Knowledge",
+      "gcc": "Madness",
+      "imageFile": "2026_10_09_insanity.png"
+    },
+    {
+      "id": "2026_10_12_wingman",
+      "displayName": "Wingman",
+      "shopStart": "2026-10-12",
+      "section": "October",
+      "occasion": "Superhero",
+      "gcc": "Sidekick",
+      "imageFile": "2026_10_12_wingman.png"
+    },
+    {
+      "id": "2026_10_14_shrine",
+      "displayName": "Shrine",
+      "shopStart": "2026-10-14",
+      "section": "October",
+      "occasion": "The Chosen One",
+      "gcc": "Shrine",
+      "imageFile": "2026_10_14_shrine.png"
+    },
+    {
+      "id": "2026_10_16_first_aid",
+      "displayName": "First Aid",
+      "shopStart": "2026-10-16",
+      "section": "October",
+      "occasion": "Life",
+      "gcc": "Healing",
+      "imageFile": "2026_10_16_first_aid.png"
+    },
+    {
+      "id": "2026_10_19_the_dark",
+      "displayName": "The Dark",
+      "shopStart": "2026-10-19",
+      "section": "October",
+      "occasion": "Madness",
+      "gcc": "Darkness",
+      "imageFile": "2026_10_19_the_dark.png"
+    },
+    {
+      "id": "2026_10_21_undying",
+      "displayName": "Undying",
+      "shopStart": "2026-10-21",
+      "section": "October",
+      "occasion": "Vampire",
+      "gcc": "Immortality",
+      "imageFile": "2026_10_21_undying.png"
+    },
+    {
+      "id": "2026_10_23_hallow_s_eve",
+      "displayName": "Hallow's Eve",
+      "shopStart": "2026-10-23",
+      "section": "October",
+      "occasion": "Spirit",
+      "gcc": "Halloween",
+      "imageFile": "2026_10_23_hallow_s_eve.png"
+    },
+    {
+      "id": "2026_10_26_fight",
+      "displayName": "Fight",
+      "shopStart": "2026-10-26",
+      "section": "October",
+      "occasion": "Werewolf",
+      "gcc": "Martial Arts",
+      "imageFile": "2026_10_26_fight.png"
+    },
+    {
+      "id": "2026_10_28_skeletal",
+      "displayName": "Skeletal",
+      "shopStart": "2026-10-28",
+      "section": "October",
+      "occasion": "Cursed",
+      "gcc": "Bone",
+      "imageFile": "2026_10_28_skeletal.png"
+    },
+    {
+      "id": "2026_10_30_mythos",
+      "displayName": "Mythos",
+      "shopStart": "2026-10-30",
+      "section": "October",
+      "occasion": "Food",
+      "gcc": "Myth",
+      "imageFile": "2026_10_30_mythos.png"
+    },
+    {
+      "id": "2026_11_02_spycraft",
+      "displayName": "Spycraft",
+      "shopStart": "2026-11-02",
+      "section": "November",
+      "occasion": "Camouflage",
+      "gcc": "Spy",
+      "imageFile": "2026_11_02_spycraft.png"
+    },
+    {
+      "id": "2026_11_04_martian",
+      "displayName": "Martian",
+      "shopStart": "2026-11-04",
+      "section": "November",
+      "occasion": "Space",
+      "gcc": "Extraterrestrial",
+      "imageFile": "2026_11_04_martian.png"
+    },
+    {
+      "id": "2026_11_06_future_fight",
+      "displayName": "Future Fight",
+      "shopStart": "2026-11-06",
+      "section": "November",
+      "occasion": "War",
+      "gcc": "Future Fight",
+      "imageFile": "2026_11_06_future_fight.png"
+    },
+    {
+      "id": "2026_11_09_primate",
+      "displayName": "Primate",
+      "shopStart": "2026-11-09",
+      "section": "November",
+      "occasion": "Prehistoric",
+      "gcc": "Monkey",
+      "imageFile": "2026_11_09_primate.png"
+    },
+    {
+      "id": "2026_11_11_pirate",
+      "displayName": "Pirate",
+      "shopStart": "2026-11-11",
+      "section": "November",
+      "occasion": "Monkey",
+      "gcc": "Pirate",
+      "imageFile": "2026_11_11_pirate.png"
+    },
+    {
+      "id": "2026_11_13_millionaire",
+      "displayName": "Millionaire",
+      "shopStart": "2026-11-13",
+      "section": "November",
+      "occasion": "Human",
+      "gcc": "Wealth",
+      "imageFile": "2026_11_13_millionaire.png"
+    },
+    {
+      "id": "2026_11_16_sports",
+      "displayName": "Sports",
+      "shopStart": "2026-11-16",
+      "section": "November",
+      "occasion": "Speed",
+      "gcc": "Sports",
+      "imageFile": "2026_11_16_sports.png"
+    },
+    {
+      "id": "2026_11_18_gamer",
+      "displayName": "Gamer",
+      "shopStart": "2026-11-18",
+      "section": "November",
+      "occasion": "Chincilla",
+      "gcc": "Arcade",
+      "imageFile": "2026_11_18_gamer.png"
+    },
+    {
+      "id": "2026_11_20_thanksgiving",
+      "displayName": "Thanksgiving",
+      "shopStart": "2026-11-20",
+      "section": "November",
+      "occasion": "Bird",
+      "gcc": "Turkey Day",
+      "imageFile": "2026_11_20_thanksgiving.png"
+    },
+    {
+      "id": "2026_11_23_lunar",
+      "displayName": "Lunar",
+      "shopStart": "2026-11-23",
+      "section": "November",
+      "occasion": "Wings",
+      "gcc": "Moon",
+      "imageFile": "2026_11_23_lunar.png"
+    },
+    {
+      "id": "2026_11_25_anniversary",
+      "displayName": "Anniversary",
+      "shopStart": "2026-11-25",
+      "section": "November",
+      "occasion": "",
+      "gcc": "Celebration",
+      "imageFile": "2026_11_25_anniversary.png"
+    },
+    {
+      "id": "2026_11_27_muscle",
+      "displayName": "Muscle",
+      "shopStart": "2026-11-27",
+      "section": "November",
+      "occasion": "Sword",
+      "gcc": "Strength",
+      "imageFile": "2026_11_27_muscle.png"
+    },
+    {
+      "id": "2026_12_02_plague",
+      "displayName": "Plague",
+      "shopStart": "2026-12-02",
+      "section": "December",
+      "occasion": "Water Serpent",
+      "gcc": "Affliction",
+      "imageFile": "2026_12_02_plague.png"
+    },
+    {
+      "id": "2026_12_04_animation",
+      "displayName": "Animation",
+      "shopStart": "2026-12-04",
+      "section": "December",
+      "occasion": "Toy",
+      "gcc": "Cartoon",
+      "imageFile": "2026_12_04_animation.png"
+    },
+    {
+      "id": "2026_12_07_wintertide",
+      "displayName": "Wintertide",
+      "shopStart": "2026-12-07",
+      "section": "December",
+      "occasion": "Holidays",
+      "gcc": "Wintertide",
+      "imageFile": "2026_12_07_wintertide.png"
+    },
+    {
+      "id": "2026_12_09_zoom_zoom",
+      "displayName": "Zoom Zoom",
+      "shopStart": "2026-12-09",
+      "section": "December",
+      "occasion": "Invention",
+      "gcc": "Vehicle",
+      "imageFile": "2026_12_09_zoom_zoom.png"
+    },
+    {
+      "id": "2026_12_11_gargantuan",
+      "displayName": "Gargantuan",
+      "shopStart": "2026-12-11",
+      "section": "December",
+      "occasion": "Anger",
+      "gcc": "Giant",
+      "imageFile": "2026_12_11_gargantuan.png"
+    },
+    {
+      "id": "2026_12_14_mon",
+      "displayName": "Mon",
+      "shopStart": "2026-12-14",
+      "section": "December",
+      "occasion": "Dragon",
+      "gcc": "Pocket Pet",
+      "imageFile": "2026_12_14_mon.png"
+    },
+    {
+      "id": "2026_12_16_mutant",
+      "displayName": "Mutant",
+      "shopStart": "2026-12-16",
+      "section": "December",
+      "occasion": "Scifi",
+      "gcc": "Mutation",
+      "imageFile": "2026_12_16_mutant.png"
+    },
+    {
+      "id": "2026_12_18_yuletide",
+      "displayName": "Yuletide",
+      "shopStart": "2026-12-18",
+      "section": "December",
+      "occasion": "Pocket Pet",
+      "gcc": "Holidays",
+      "imageFile": "2026_12_18_yuletide.png"
+    },
+    {
+      "id": "2026_12_21_tortoise",
+      "displayName": "Tortoise",
+      "shopStart": "2026-12-21",
+      "section": "December",
+      "occasion": "Death",
+      "gcc": "Turtle",
+      "imageFile": "2026_12_21_tortoise.png"
+    },
+    {
+      "id": "2026_12_23_dark_age",
+      "displayName": "Dark Age",
+      "shopStart": "2026-12-23",
+      "section": "December",
+      "occasion": "Sun",
+      "gcc": "Ice",
+      "imageFile": "2026_12_23_dark_age.png"
+    },
+    {
+      "id": "2026_12_25_frozen",
+      "displayName": "Frozen",
+      "shopStart": "2026-12-25",
+      "section": "December",
+      "occasion": "Sun",
+      "gcc": "Ice",
+      "imageFile": "2026_12_25_frozen.png"
+    },
+    {
+      "id": "2026_12_28_new_years",
+      "displayName": "New Years",
+      "shopStart": "2026-12-28",
+      "section": "December",
+      "occasion": "",
+      "gcc": "New Years",
+      "imageFile": "2026_12_28_new_years.png"
+    },
+    {
+      "id": "2026_12_30_futuristic",
+      "displayName": "Futuristic",
+      "shopStart": "2026-12-30",
+      "section": "December",
+      "occasion": "Water",
+      "gcc": "Sci-Fi",
+      "imageFile": "2026_12_30_futuristic.png"
+    },
+    {
+      "id": "2027_01_01_cloaked",
+      "displayName": "Cloaked",
+      "shopStart": "2027-01-01",
+      "section": "January -Feb 27",
+      "occasion": "Void",
+      "gcc": "Camouflage",
+      "imageFile": "2027_01_01_cloaked.png"
+    },
+    {
+      "id": "2027_01_04_fantasy",
+      "displayName": "Fantasy",
+      "shopStart": "2027-01-04",
+      "section": "January -Feb 27",
+      "occasion": "Fairy Tale",
+      "gcc": "Precious Ring Lore",
+      "imageFile": "2027_01_04_fantasy.png"
+    },
+    {
+      "id": "2027_01_06_aviary",
+      "displayName": "Aviary",
+      "shopStart": "2027-01-06",
+      "section": "January -Feb 27",
+      "occasion": "Wind",
+      "gcc": "Bird",
+      "imageFile": "2027_01_06_aviary.png"
+    },
+    {
+      "id": "2027_01_08_wingman",
+      "displayName": "Wingman",
+      "shopStart": "2027-01-08",
+      "section": "January -Feb 27",
+      "occasion": "Superhero",
+      "gcc": "Sidekick",
+      "imageFile": "2027_01_08_wingman.png"
+    },
+    {
+      "id": "2027_01_11_viking",
+      "displayName": "Viking",
+      "shopStart": "2027-01-11",
+      "section": "January -Feb 27",
+      "occasion": "Horn",
+      "gcc": "Viking",
+      "imageFile": "2027_01_11_viking.png"
+    },
+    {
+      "id": "2027_01_13_aquatic",
+      "displayName": "Aquatic",
+      "shopStart": "2027-01-13",
+      "section": "January -Feb 27",
+      "occasion": "Trident",
+      "gcc": "Underwater",
+      "imageFile": "2027_01_13_aquatic.png"
+    },
+    {
+      "id": "2027_01_15_machine",
+      "displayName": "Machine",
+      "shopStart": "2027-01-15",
+      "section": "January -Feb 27",
+      "occasion": "Elf",
+      "gcc": "Robot",
+      "imageFile": "2027_01_15_machine.png"
+    },
+    {
+      "id": "2027_01_18_clairvoyant",
+      "displayName": "Clairvoyant",
+      "shopStart": "2027-01-18",
+      "section": "January -Feb 27",
+      "occasion": "Insect",
+      "gcc": "Psychic",
+      "imageFile": "2027_01_18_clairvoyant.png"
+    },
+    {
+      "id": "2027_01_20_far_away",
+      "displayName": "Far Away",
+      "shopStart": "2027-01-20",
+      "section": "January -Feb 27",
+      "occasion": "Space",
+      "gcc": "Galaxy Wars",
+      "imageFile": "2027_01_20_far_away.png"
+    },
+    {
+      "id": "2027_01_22_wizarding",
+      "displayName": "Wizarding",
+      "shopStart": "2027-01-22",
+      "section": "January -Feb 27",
+      "occasion": "Magic",
+      "gcc": "Wizarding School",
+      "imageFile": "2027_01_22_wizarding.png"
+    },
+    {
+      "id": "2027_01_25_oceana",
+      "displayName": "Oceana",
+      "shopStart": "2027-01-25",
+      "section": "January -Feb 27",
+      "occasion": "Underwater",
+      "gcc": "Fish",
+      "imageFile": "2027_01_25_oceana.png"
+    },
+    {
+      "id": "2027_01_27_arms",
+      "displayName": "Arms",
+      "shopStart": "2027-01-27",
+      "section": "January -Feb 27",
+      "occasion": "Vampire",
+      "gcc": "Weapon",
+      "imageFile": "2027_01_27_arms.png"
+    },
+    {
+      "id": "2027_01_29_commander",
+      "displayName": "Commander",
+      "shopStart": "2027-01-29",
+      "section": "January -Feb 27",
+      "occasion": "Undead",
+      "gcc": "Leader",
+      "imageFile": "2027_01_29_commander.png"
+    },
+    {
+      "id": "2027_02_01_adventure",
+      "displayName": "Adventure",
+      "shopStart": "2027-02-01",
+      "section": "January -Feb 27",
+      "occasion": "Wealth",
+      "gcc": "Adventure",
+      "imageFile": "2027_02_01_adventure.png"
+    },
+    {
+      "id": "2027_02_03_hypno",
+      "displayName": "Hypno",
+      "shopStart": "2027-02-03",
+      "section": "January -Feb 27",
+      "occasion": "Werewolf",
+      "gcc": "Mind Control",
+      "imageFile": "2027_02_03_hypno.png"
+    },
+    {
+      "id": "2027_02_05_valentine_s",
+      "displayName": "Valentine's",
+      "shopStart": "2027-02-05",
+      "section": "January -Feb 27",
+      "occasion": "Precious Ring Lore",
+      "gcc": "Love",
+      "imageFile": "2027_02_05_valentine_s.png"
+    },
+    {
+      "id": "2027_02_08_slime",
+      "displayName": "Slime",
+      "shopStart": "2027-02-08",
+      "section": "January -Feb 27",
+      "occasion": "Poison",
+      "gcc": "Blob",
+      "imageFile": "2027_02_08_slime.png"
+    },
+    {
+      "id": "2027_02_10_primate",
+      "displayName": "Primate",
+      "shopStart": "2027-02-10",
+      "section": "January -Feb 27",
+      "occasion": "Prehistoric",
+      "gcc": "Monkey",
+      "imageFile": "2027_02_10_primate.png"
+    },
+    {
+      "id": "2027_02_12_combat",
+      "displayName": "Combat",
+      "shopStart": "2027-02-12",
+      "section": "January -Feb 27",
+      "occasion": "Villain",
+      "gcc": "War",
+      "imageFile": "2027_02_12_combat.png"
+    },
+    {
+      "id": "2027_02_15_scaly",
+      "displayName": "Scaly",
+      "shopStart": "2027-02-15",
+      "section": "January -Feb 27",
+      "occasion": "Turtle",
+      "gcc": "Reptile",
+      "imageFile": "2027_02_15_scaly.png"
+    }
+  ]
+}

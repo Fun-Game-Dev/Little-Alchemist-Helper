@@ -1,0 +1,691 @@
+{
+  "wikiListUrl": "https://lil-alchemist.fandom.com/wiki/Special_Packs",
+  "packs": [
+    {
+      "wikiSlug": "Accursed",
+      "displayName": "Accursed Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Accursed_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/0/09/Accursed_Pack_Selector.png/revision/latest?cb=20240131184900"
+    },
+    {
+      "wikiSlug": "Adventure",
+      "displayName": "Adventure Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Adventure_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/8/8d/Adventure_Pack_Selector.png/revision/latest?cb=20241121094423"
+    },
+    {
+      "wikiSlug": "Animation",
+      "displayName": "Animation Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Animation_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/c/c0/Animation_Pack_Selector.png/revision/latest?cb=20230512080424"
+    },
+    {
+      "wikiSlug": "Aquatic",
+      "displayName": "Aquatic Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Aquatic_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/4/49/Aquatic_Pack_Selector.png/revision/latest?cb=20230512084227"
+    },
+    {
+      "wikiSlug": "Arachnid",
+      "displayName": "Arachnid Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Arachnid_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/a/ab/Arachnid_Pack_Selector.png/revision/latest?cb=20240816181919"
+    },
+    {
+      "wikiSlug": "Arms",
+      "displayName": "Arms Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Arms_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/0/0b/Arms_Pack_Selector.png/revision/latest?cb=20150319054655"
+    },
+    {
+      "wikiSlug": "Artifact",
+      "displayName": "Artifact Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Artifact_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/5/58/Artifact_Pack_Selector.png/revision/latest?cb=20240919035831"
+    },
+    {
+      "wikiSlug": "Atomic_Aftermath",
+      "displayName": "Atomic Aftermath Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Atomic_Aftermath_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/d/d2/Atomic_Aftermath_Pack_Selector.png/revision/latest?cb=20240622192259"
+    },
+    {
+      "wikiSlug": "Aviary",
+      "displayName": "Aviary Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Aviary_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/2/2a/Aviary_Pack_Selector.png/revision/latest?cb=20150829055136"
+    },
+    {
+      "wikiSlug": "Bloody",
+      "displayName": "Bloody Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Bloody_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/1/14/Bloody_Pack_Selector.png/revision/latest?cb=20241012003525"
+    },
+    {
+      "wikiSlug": "Booming_Spike",
+      "displayName": "Booming Spike Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Booming_Spike_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/d/d8/Booming_Spike_Pack_Selector.png/revision/latest?cb=20231110173154"
+    },
+    {
+      "wikiSlug": "Botanical",
+      "displayName": "Botanical Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Botanical_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/6/68/Botanical_Pack_Selector.png/revision/latest?cb=20240806083012"
+    },
+    {
+      "wikiSlug": "Bug",
+      "displayName": "Bug Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Bug_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/7/78/Bug_Pack_Selector.png/revision/latest?cb=20150718213409"
+    },
+    {
+      "wikiSlug": "Canine",
+      "displayName": "Canine Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Canine_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/4/46/Canine_Pack_Selector.png/revision/latest?cb=20241121094518"
+    },
+    {
+      "wikiSlug": "Carnage",
+      "displayName": "Carnage Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Carnage_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/a/a0/Carnage_Pack_Selector.png/revision/latest?cb=20151126175417"
+    },
+    {
+      "wikiSlug": "Chosen_Hero",
+      "displayName": "Chosen Hero Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Chosen_Hero_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/f/f4/Chosen_Hero_Pack_Selector.png/revision/latest?cb=20240910010845"
+    },
+    {
+      "wikiSlug": "Clairvoyant",
+      "displayName": "Clairvoyant Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Clairvoyant_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/b/b0/Clairvoyant_Pack_Selector.png/revision/latest?cb=20240926015459"
+    },
+    {
+      "wikiSlug": "Cloaked",
+      "displayName": "Cloaked Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Cloaked_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/8/8b/Cloaked_Pack_Selector.png/revision/latest?cb=20230512075542"
+    },
+    {
+      "wikiSlug": "Combat",
+      "displayName": "Combat Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Combat_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/e/e4/Combat_Pack_Selector.png/revision/latest?cb=20230512085115"
+    },
+    {
+      "wikiSlug": "Commander",
+      "displayName": "Commander Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Commander_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/2/2d/Commander_Pack_Selector.png/revision/latest?cb=20150305061613"
+    },
+    {
+      "wikiSlug": "Confectionery",
+      "displayName": "Confectionery Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Confectionery_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/c/cc/Confectionery_Pack_Selector.png/revision/latest?cb=20240807214026"
+    },
+    {
+      "wikiSlug": "The_Dark",
+      "displayName": "Darkness Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Darkness_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/2/29/Darkness_Pack_Selector.png/revision/latest?cb=20241014231728"
+    },
+    {
+      "wikiSlug": "Dark_Ages",
+      "displayName": "Dark Ages Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Dark_Ages_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/6/60/Dark_Ages_Pack_Selector.png/revision/latest?cb=20150804234643"
+    },
+    {
+      "wikiSlug": "End_of_World",
+      "displayName": "End Of World Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "End_Of_World_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/d/d6/End_Of_World_Pack_Selector.png/revision/latest?cb=20241102041325"
+    },
+    {
+      "wikiSlug": "Fable",
+      "displayName": "Fable Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Fable_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/e/ef/Fable_Pack_Selector.png/revision/latest?cb=20230512084645"
+    },
+    {
+      "wikiSlug": "Fantasy",
+      "displayName": "Fantasy Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Fantasy_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/3/31/Fantasy_Pack_Selector.png/revision/latest?cb=20230512081041"
+    },
+    {
+      "wikiSlug": "Far_Away",
+      "displayName": "Far Away Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Far_Away_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/d/da/Far_Away_Pack_Selector.png/revision/latest?cb=20240819211717"
+    },
+    {
+      "wikiSlug": "Fight",
+      "displayName": "Fight Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Fight_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/a/ad/Fight_Pack_Selector.png/revision/latest?cb=20230512091135"
+    },
+    {
+      "wikiSlug": "First_Aid",
+      "displayName": "First Aid Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "First_Aid_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/a/af/First_Aid_Pack_Selector.png/revision/latest?cb=20241109100145"
+    },
+    {
+      "wikiSlug": "Frozen",
+      "displayName": "Frozen Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Frozen_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/e/e9/Frozen_Pack_Selector.png/revision/latest?cb=20240905000552"
+    },
+    {
+      "wikiSlug": "Fun",
+      "displayName": "Fun Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Fun_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/5/57/Fun_Pack_Selector.png/revision/latest?cb=20150718213408"
+    },
+    {
+      "wikiSlug": "Future_Fight",
+      "displayName": "Future Fight Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Future_Fight_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/a/a3/Future_Fight_Pack_Selector.png/revision/latest?cb=20240921064335"
+    },
+    {
+      "wikiSlug": "Futuristic",
+      "displayName": "Futuristic Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Futuristic_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/3/37/Futuristic_Pack_Selector.png/revision/latest?cb=20150604024843"
+    },
+    {
+      "wikiSlug": "Gamer",
+      "displayName": "Gamer Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Gamer_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/1/10/Gamer_Pack_Selector.png/revision/latest?cb=20150829055136"
+    },
+    {
+      "wikiSlug": "Gargantuan",
+      "displayName": "Gargantuan Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Gargantuan_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/8/8d/Gargantuan_Pack_Selector.png/revision/latest?cb=20240830223918"
+    },
+    {
+      "wikiSlug": "Half-Half",
+      "displayName": "Half-Half Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Half-Half_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/f/f0/Half-Half_Pack_Selector.png/revision/latest?cb=20240906234519"
+    },
+    {
+      "wikiSlug": "Hope",
+      "displayName": "Hope Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Hope_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/c/c0/Hope_Pack_Selector.png/revision/latest?cb=20240912083438"
+    },
+    {
+      "wikiSlug": "Hypno",
+      "displayName": "Hypno Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Hypno_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/9/9e/Hypno_Pack_Selector.png/revision/latest?cb=20240814174404"
+    },
+    {
+      "wikiSlug": "Innovation",
+      "displayName": "Innovation Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Innovation_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/3/36/Innovation_Pack_Selector.png/revision/latest?cb=20241003003846"
+    },
+    {
+      "wikiSlug": "Insanity",
+      "displayName": "Insanity Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Insanity_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/2/2e/Insanity_Pack_Selector.png/revision/latest?cb=20240902232744"
+    },
+    {
+      "wikiSlug": "Jungle",
+      "displayName": "Jungle Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Jungle_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/6/61/Jungle_Pack_Selector.png/revision/latest?cb=20230616140316"
+    },
+    {
+      "wikiSlug": "Lunar",
+      "displayName": "Lunar Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Lunar_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/d/d6/Lunar_Pack_Selector.png/revision/latest?cb=20240924085417"
+    },
+    {
+      "wikiSlug": "Machine",
+      "displayName": "Machine Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Machine_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/2/26/Machine_Pack_Selector.png/revision/latest?cb=20241022042733"
+    },
+    {
+      "wikiSlug": "Martian",
+      "displayName": "Martian Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Martian_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/3/3c/Martian_Pack_Selector.png/revision/latest?cb=20230512084737"
+    },
+    {
+      "wikiSlug": "Melody",
+      "displayName": "Melody Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Melody_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/5/52/Melody_Pack_Selector.png/revision/latest?cb=20150718213408"
+    },
+    {
+      "wikiSlug": "Meta",
+      "displayName": "Meta Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Meta_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/d/d5/Meta_Pack_Selector.png/revision/latest?cb=20241102041152"
+    },
+    {
+      "wikiSlug": "Millionaire",
+      "displayName": "Millionaire Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Millionaire_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/7/7b/Millionaire_Pack_Selector.png/revision/latest?cb=20150804234643"
+    },
+    {
+      "wikiSlug": "Mon",
+      "displayName": "Mon Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Mon_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/b/b4/Mon_Pack_Selector.png/revision/latest?cb=20241121094632"
+    },
+    {
+      "wikiSlug": "Multiplicity",
+      "displayName": "Multiplicity Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Multiplicity_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/d/de/Multiplicity_Pack_Selector.png/revision/latest?cb=20240914050318"
+    },
+    {
+      "wikiSlug": "Muscle",
+      "displayName": "Muscle Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Muscle_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/c/cf/Muscle_Pack_Selector.png/revision/latest?cb=20150305172309"
+    },
+    {
+      "wikiSlug": "Mutant",
+      "displayName": "Mutant Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Mutant_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/4/43/Mutant_Pack_Selector.png/revision/latest?cb=20230512085333"
+    },
+    {
+      "wikiSlug": "Mythos",
+      "displayName": "Mythos Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Mythos_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/d/dd/Mythos_Pack_Selector.png/revision/latest?cb=20241121094708"
+    },
+    {
+      "wikiSlug": "Oceana",
+      "displayName": "Oceana Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Oceana_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/7/7c/Oceana_Pack_Selector.png/revision/latest?cb=20240712184009"
+    },
+    {
+      "wikiSlug": "Parasitic",
+      "displayName": "Parasitic Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Parasitic_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/7/74/Parasitic_Pack_Selector.png/revision/latest?cb=20241029012519"
+    },
+    {
+      "wikiSlug": "Phantom",
+      "displayName": "Phantom Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Phantom_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/5/5b/Phantom_Pack_Selector.png/revision/latest?cb=20150804232400"
+    },
+    {
+      "wikiSlug": "Pirate",
+      "displayName": "Pirate Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Pirate_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/c/c1/Pirate_Pack_Selector.png/revision/latest?cb=20240917051742"
+    },
+    {
+      "wikiSlug": "Plague",
+      "displayName": "Plague Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Plague_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/b/bd/Plague_Pack_Selector.png/revision/latest?cb=20241010003422"
+    },
+    {
+      "wikiSlug": "Portal",
+      "displayName": "Portal Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Portal_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/6/6d/Portal_Pack_Selector.png/revision/latest?cb=20240824091822"
+    },
+    {
+      "wikiSlug": "Primate",
+      "displayName": "Primate Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Primate_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/b/b3/Primate_Pack_Selector.png/revision/latest?cb=20150319054656"
+    },
+    {
+      "wikiSlug": "Purrrfect",
+      "displayName": "Purrrfect Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Purrrfect_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/b/b3/Purrrfect_Pack_Selector.png/revision/latest?cb=20240828184302"
+    },
+    {
+      "wikiSlug": "Rage",
+      "displayName": "Rage Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Rage_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/6/6b/Rage_Pack_Selector.png/revision/latest?cb=20230510075149"
+    },
+    {
+      "wikiSlug": "Rat",
+      "displayName": "Rat Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Rat_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/e/e7/Rat_Pack_Selector.png/revision/latest?cb=20151126175416"
+    },
+    {
+      "wikiSlug": "Regal",
+      "displayName": "Regal Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Regal_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/e/e4/Regal_Pack_Selector.png/revision/latest?cb=20240812184116"
+    },
+    {
+      "wikiSlug": "Sahara",
+      "displayName": "Sahara Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Sahara_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/2/2b/Sahara_Pack_Selector.png/revision/latest?cb=20240809184105"
+    },
+    {
+      "wikiSlug": "Scaly",
+      "displayName": "Scaly Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Scaly_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/9/9d/Scaly_Pack_Selector.png/revision/latest?cb=20150804232359"
+    },
+    {
+      "wikiSlug": "Scheming",
+      "displayName": "Scheming Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Scheming_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/0/03/Scheming_Pack_Selector.png/revision/latest?cb=20240927234902"
+    },
+    {
+      "wikiSlug": "Shrine",
+      "displayName": "Shrine Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Shrine_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/a/a5/Shrine_Pack_Selector.png/revision/latest?cb=20241010003457"
+    },
+    {
+      "wikiSlug": "Skeletal",
+      "displayName": "Skeletal Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Skeletal_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/d/d8/Skeletal_Pack_Selector.png/revision/latest?cb=20241004232859"
+    },
+    {
+      "wikiSlug": "Slime",
+      "displayName": "Slime Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Slime_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/9/9e/Slime_Pack_Selector.png/revision/latest?cb=20230512080653"
+    },
+    {
+      "wikiSlug": "Slumber",
+      "displayName": "Slumber Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Slumber_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/f/f7/Slumber_Pack_Selector.png/revision/latest?cb=20230512075420"
+    },
+    {
+      "wikiSlug": "Sports",
+      "displayName": "Sports Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Sports_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/6/69/Sports_Pack_Selector.png/revision/latest?cb=20241109100752"
+    },
+    {
+      "wikiSlug": "Spycraft",
+      "displayName": "Spycraft Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Spycraft_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/d/db/Spycraft_Pack_Selector.png/revision/latest?cb=20241019032005"
+    },
+    {
+      "wikiSlug": "Subterranean",
+      "displayName": "Subterranean Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Subterranean_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/0/01/Subterranean_Pack_Selector.png/revision/latest?cb=20230510075413"
+    },
+    {
+      "wikiSlug": "Swift",
+      "displayName": "Swift Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Swift_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/9/9b/Swift_Pack_Selector.png/revision/latest?cb=20240822014445"
+    },
+    {
+      "wikiSlug": "Tiny",
+      "displayName": "Tiny Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Tiny_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/b/b3/Tiny_Pack_Selector.png/revision/latest?cb=20241121094749"
+    },
+    {
+      "wikiSlug": "Tortoise",
+      "displayName": "Tortoise Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Tortoise_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/f/fd/Tortoise_Pack_Selector.png/revision/latest?cb=20151126175417"
+    },
+    {
+      "wikiSlug": "Undying",
+      "displayName": "Undying Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Undying_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/5/5b/Undying_Pack_Selector.png/revision/latest?cb=20241003004040"
+    },
+    {
+      "wikiSlug": "Vanity",
+      "displayName": "Vanity Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Vanity_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/4/45/Vanity_Pack_Selector.png/revision/latest?cb=20241109100014"
+    },
+    {
+      "wikiSlug": "Viking",
+      "displayName": "Viking Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Viking_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/1/15/Viking_Pack_Selector.png/revision/latest?cb=20250919043544"
+    },
+    {
+      "wikiSlug": "Wingman",
+      "displayName": "Wingman Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Wingman_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/c/c8/Wingman_Pack_Selector.png/revision/latest?cb=20240806070433"
+    },
+    {
+      "wikiSlug": "Wizarding",
+      "displayName": "Wizarding Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Wizarding_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/2/28/Wizarding_Pack_Selector.png/revision/latest?cb=20230512080322"
+    },
+    {
+      "wikiSlug": "Zoom_Zoom",
+      "displayName": "Zoom Zoom Pack",
+      "section": "Active: Special Packs",
+      "selectorFile": "Zoom_Zoom_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/5/57/Zoom_Zoom_Pack_Selector.png/revision/latest?cb=20230512080212"
+    },
+    {
+      "wikiSlug": "Anniversary",
+      "displayName": "Anniversary Pack",
+      "section": "Seasonal: Special Packs",
+      "selectorFile": "Anniversary_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/3/38/Anniversary_Pack_Selector.png/revision/latest?cb=20240419234248"
+    },
+    {
+      "wikiSlug": "Halloween",
+      "displayName": "Hallow's Eve Pack",
+      "section": "Seasonal: Special Packs",
+      "selectorFile": "Hallow's_Eve_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/b/b0/Hallow%27s_Eve_Pack_Selector.png/revision/latest?cb=20241027173855"
+    },
+    {
+      "wikiSlug": "Summertide",
+      "displayName": "Summertide Pack",
+      "section": "Seasonal: Special Packs",
+      "selectorFile": "Summertide_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/b/b2/Summertide_Pack_Selector.png/revision/latest?cb=20240727195351"
+    },
+    {
+      "wikiSlug": "Thanksgiving",
+      "displayName": "Thanksgiving Pack",
+      "section": "Seasonal: Special Packs",
+      "selectorFile": "Thanksgiving_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/6/6d/Thanksgiving_Pack_Selector.png/revision/latest?cb=20241123023453"
+    },
+    {
+      "wikiSlug": "Valentine's",
+      "displayName": "Valentine's Pack",
+      "section": "Seasonal: Special Packs",
+      "selectorFile": "Valentine's_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/0/0c/Valentine%27s_Pack_Selector.png/revision/latest?cb=20150305055240"
+    },
+    {
+      "wikiSlug": "Wintertide",
+      "displayName": "Wintertide Pack",
+      "section": "Seasonal: Special Packs",
+      "selectorFile": "Wintertide_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/0/02/Wintertide_Pack_Selector.png/revision/latest?cb=20240106145558"
+    },
+    {
+      "wikiSlug": "Yuletide",
+      "displayName": "Yuletide Pack",
+      "section": "Seasonal: Special Packs",
+      "selectorFile": "Yuletide_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/3/34/Yuletide_Pack_Selector.png/revision/latest?cb=20150305061615"
+    },
+    {
+      "wikiSlug": "New_Years",
+      "displayName": "New Years Pack",
+      "section": "Seasonal: Special Packs",
+      "selectorFile": "New_Years_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/9/97/New_Years_Pack_Selector.png/revision/latest?cb=20250919043848"
+    },
+    {
+      "wikiSlug": "Comic_Book",
+      "displayName": "Comic Book Pack",
+      "section": "Discontinued: Special Packs",
+      "selectorFile": "Comic_Book_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/f/fe/Comic_Book_Pack_Selector.png/revision/latest?cb=20150319060926"
+    },
+    {
+      "wikiSlug": "Leftovers",
+      "displayName": "Leftovers Pack",
+      "section": "Discontinued: Special Packs",
+      "selectorFile": "Leftovers_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/1/18/Leftovers_Pack_Selector.png/revision/latest?cb=20231007145759"
+    },
+    {
+      "wikiSlug": "Alien_Dino",
+      "displayName": "Alien Dino Pack",
+      "section": "Discontinued: Special Packs",
+      "selectorFile": "Alien_Dino_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/2/29/Alien_Dino_Pack_Selector.png/revision/latest?cb=20230510182851"
+    },
+    {
+      "wikiSlug": "Dr._Frankenstein",
+      "displayName": "Dr. Frankenstein Pack",
+      "section": "Discontinued: Special Packs",
+      "selectorFile": "Dr._Frankenstein_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/f/f4/Dr._Frankenstein_Pack_Selector.png/revision/latest?cb=20230511083546"
+    },
+    {
+      "wikiSlug": "Starter",
+      "displayName": "Starter Pack",
+      "section": "Discontinued: Special Packs",
+      "selectorFile": "Starter_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/2/2a/Starter_Pack_Selector.png/revision/latest?cb=20150718211403"
+    },
+    {
+      "wikiSlug": "Advanced",
+      "displayName": "Advanced Pack",
+      "section": "Discontinued: Special Packs",
+      "selectorFile": "Advanced_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/d/df/Advanced_Pack_Selector.png/revision/latest?cb=20150718211408"
+    },
+    {
+      "wikiSlug": "Nemesis",
+      "displayName": "Nemesis Pack",
+      "section": "Discontinued: Special Packs",
+      "selectorFile": "Nemesis_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/7/71/Nemesis_Pack_Selector.png/revision/latest?cb=20150718213407"
+    },
+    {
+      "wikiSlug": "Adversary",
+      "displayName": "Adversary Pack",
+      "section": "Discontinued: Special Packs",
+      "selectorFile": "Adversary_Pack_Selector.png",
+      "wikiImageUrl": "https://static.wikia.nocookie.net/lil-alchemist/images/d/de/Adversary_Pack_Selector.png/revision/latest?cb=20150718211407"
+    }
+  ]
+}
