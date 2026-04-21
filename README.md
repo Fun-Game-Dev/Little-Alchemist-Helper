@@ -43,18 +43,43 @@ flutter test
 
 ## GitHub Pages Deployment (Web)
 
-The repository includes an automatic deployment workflow for Flutter Web:
+The repository deploys a prebuilt Flutter Web bundle (built locally) to GitHub Pages:
 
 - Workflow: `.github/workflows/deploy-web-pages.yml`
 - Trigger: every push to `main` (and manual run from Actions tab)
+- Published folder: `docs/` (no Flutter build on GitHub)
 - Output URL: `https://<your-github-username>.github.io/<repo-name>/`
 
 One-time GitHub setup:
 
 1. Open repository **Settings -> Pages**.
 2. Set **Source** to **GitHub Actions**.
-3. Push to `main` (or run the workflow manually once).
-4. Wait for the "Deploy Flutter Web to GitHub Pages" workflow to complete.
+
+Local release flow:
+
+1. Build and publish web locally with one command:
+   ```bash
+   ./scripts/build_web_for_pages.sh <repo-name>
+   ```
+   Example:
+   ```bash
+   ./scripts/build_web_for_pages.sh "Little-Alchemist-Helper"
+   ```
+   If `<repo-name>` is omitted, the script uses the current repository folder name.
+2. (Alternative manual flow) Build web locally:
+   ```bash
+   cd little_alchemist_helper
+   flutter pub get
+   flutter build web --release --base-href "/<repo-name>/"
+   ```
+3. Copy the build output into the repository `docs/` folder:
+   ```bash
+   rm -rf ../docs
+   mkdir -p ../docs
+   cp -R build/web/. ../docs/
+   ```
+4. Commit and push `docs/` plus any source changes.
+5. Wait for the "Deploy Flutter Web to GitHub Pages" workflow to complete.
 
 ## Project Structure
 
