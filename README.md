@@ -41,6 +41,21 @@ flutter analyze
 flutter test
 ```
 
+## GitHub Pages Deployment (Web)
+
+The repository includes an automatic deployment workflow for Flutter Web:
+
+- Workflow: `.github/workflows/deploy-web-pages.yml`
+- Trigger: every push to `main` (and manual run from Actions tab)
+- Output URL: `https://<your-github-username>.github.io/<repo-name>/`
+
+One-time GitHub setup:
+
+1. Open repository **Settings -> Pages**.
+2. Set **Source** to **GitHub Actions**.
+3. Push to `main` (or run the workflow manually once).
+4. Wait for the "Deploy Flutter Web to GitHub Pages" workflow to complete.
+
 ## Project Structure
 
 ```text
