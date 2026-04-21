@@ -5,6 +5,10 @@ part of 'app_controller.dart';
 extension AppControllerCatalogExtension on AppController {
   static const String noAbilityKey = '__no_ability__';
 
+  Future<void> _yieldToUiThread() async {
+    await Future<void>.delayed(Duration.zero);
+  }
+
   Map<ComboTier, int> get catalogRarityCounts {
     final Map<ComboTier, int> counts = <ComboTier, int>{
       ComboTier.bronze: 0,
@@ -107,11 +111,14 @@ extension AppControllerCatalogExtension on AppController {
     await _store.writeOwnedComboEntries(_ownedComboEntries);
   }
 
-  Future<void> _loadInitialCatalog() async {
+  Future<void> _loadInitialCatalog({
+    void Function(String message, double progress)? onProgress,
+  }) async {
     await _loadMergedCatalog(
       userOverlayPath: _userCatalogOverlayPath,
       inlineUserOverlayJson: null,
       bundledMessage: (int n) => _l10n.loadCatalogLoaded(n),
+      onProgress: onProgress,
     );
   }
 
@@ -127,10 +134,18 @@ extension AppControllerCatalogExtension on AppController {
     required String? userOverlayPath,
     required String? inlineUserOverlayJson,
     required String Function(int cardCount) bundledMessage,
+    void Function(String message, double progress)? onProgress,
   }) async {
+    void report(String message, double progress) {
+      onProgress?.call(message, progress.clamp(0.0, 1.0));
+    }
+
     _loadMessage = null;
     try {
+      report(_l10n.catalogProgressLoadOnyxSheet, 0.05);
       await _loadFusionOnyxSheet();
+      await _yieldToUiThread();
+      report(_l10n.catalogProgressReadBaseCatalog, 0.12);
       final String alchemyRaw = await rootBundle.loadString(
         'assets/AlchemyCardData.json',
       );
@@ -139,6 +154,8 @@ extension AppControllerCatalogExtension on AppController {
         throw const FormatException('AlchemyCardData.json: object expected');
       }
       final Map<String, Object?> root = jsonMapToStringKeyed(alchemyDecoded);
+      await _yieldToUiThread();
+      report(_l10n.catalogProgressMergeExcel, 0.22);
       final String excelRaw = await rootBundle.loadString(
         'assets/data_from_exel.txt',
       );
@@ -146,6 +163,8 @@ extension AppControllerCatalogExtension on AppController {
         excelRaw,
       );
       mergeExcelSupplementIntoRoot(root, excelRoot);
+      await _yieldToUiThread();
+      report(_l10n.catalogProgressApplyComboPatch, 0.32);
       final String comboRaw = await _loadBundledCombinationPatchJson();
       final String trimmedCombo = comboRaw.trim();
       if (trimmedCombo.isNotEmpty && trimmedCombo != '{}') {
@@ -157,6 +176,8 @@ extension AppControllerCatalogExtension on AppController {
           );
         }
       }
+      await _yieldToUiThread();
+      report(_l10n.catalogProgressApplyUserPatch, 0.42);
       String? userRaw = inlineUserOverlayJson;
       userRaw ??= await readUserCatalogIfExists(userOverlayPath);
       if (userRaw != null) {
@@ -168,12 +189,15 @@ extension AppControllerCatalogExtension on AppController {
           );
         }
       }
+      await _yieldToUiThread();
+      report(_l10n.catalogProgressParseMergedCatalog, 0.58);
       final String mergedJson = jsonEncode(root);
       Map<String, AlchemyCard> next = await _parser.parseJsonStringAsync(
         mergedJson,
         combinationPatchJson: '',
       );
       if (_augmentSyntheticOnyxCatalog) {
+        report(_l10n.catalogProgressAddSyntheticOnyx, 0.75);
         final String shopPacksRaw = await rootBundle.loadString(
           'assets/data/shop_packs.json',
         );
@@ -203,7 +227,10 @@ extension AppControllerCatalogExtension on AppController {
           allowedOnyxMaterialDisplayNames: allowedOnyxMaterialDisplayNames,
         );
       }
+      await _yieldToUiThread();
+      report(_l10n.catalogProgressFinalizeCatalog, 0.92);
       await _applyCatalog(next, message: bundledMessage(next.length));
+      report(_l10n.catalogProgressReady, 1.0);
     } on Object catch (e) {
       _loadMessage = _l10n.loadCatalogError(e);
       notifyListeners();
@@ -288,6 +315,7 @@ extension AppControllerCatalogExtension on AppController {
       bundledMessage: (int n) => savedPath != null
           ? _l10n.loadPatchSavedCatalogRebuilt(n)
           : _l10n.loadPatchAppliedSessionOnly(n),
+      onProgress: null,
     );
   }
 
@@ -298,6 +326,7 @@ extension AppControllerCatalogExtension on AppController {
       userOverlayPath: null,
       inlineUserOverlayJson: null,
       bundledMessage: (int n) => _l10n.loadUserPatchReset(n),
+      onProgress: null,
     );
   }
 }

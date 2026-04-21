@@ -1399,6 +1399,12 @@ abstract class AppLocalizations {
   /// **'Packs in shop'**
   String get eventsShopSubtitle;
 
+  /// No description provided for @tabEvents.
+  ///
+  /// In en, this message translates to:
+  /// **'Events'**
+  String get tabEvents;
+
   /// No description provided for @eventsArenaTitle.
   ///
   /// In en, this message translates to:
@@ -1422,6 +1428,210 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Portal rewards'**
   String get eventsPortalSubtitle;
+
+  /// No description provided for @eventsExpandAll.
+  ///
+  /// In en, this message translates to:
+  /// **'Expand all'**
+  String get eventsExpandAll;
+
+  /// No description provided for @eventsCollapseAll.
+  ///
+  /// In en, this message translates to:
+  /// **'Collapse all'**
+  String get eventsCollapseAll;
+
+  /// No description provided for @eventsDurationDays.
+  ///
+  /// In en, this message translates to:
+  /// **'{days} d'**
+  String eventsDurationDays(Object days);
+
+  /// No description provided for @eventsDurationHours.
+  ///
+  /// In en, this message translates to:
+  /// **'{hours} h'**
+  String eventsDurationHours(Object hours);
+
+  /// No description provided for @eventsDurationMinutes.
+  ///
+  /// In en, this message translates to:
+  /// **'{minutes} m'**
+  String eventsDurationMinutes(Object minutes);
+
+  /// No description provided for @arenaCurrentInShop.
+  ///
+  /// In en, this message translates to:
+  /// **'In shop now: {ability}, {timeLeft} left'**
+  String arenaCurrentInShop(Object ability, Object timeLeft);
+
+  /// No description provided for @arenaCurrentWindow.
+  ///
+  /// In en, this message translates to:
+  /// **'In shop now, {timeLeft} left'**
+  String arenaCurrentWindow(Object timeLeft);
+
+  /// No description provided for @arenaNextWindow.
+  ///
+  /// In en, this message translates to:
+  /// **'Next: {start} - {end} (in {timeUntilStart})'**
+  String arenaNextWindow(Object start, Object end, Object timeUntilStart);
+
+  /// No description provided for @portalOpenEventFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not open event page'**
+  String get portalOpenEventFailed;
+
+  /// No description provided for @portalRemainingHours.
+  ///
+  /// In en, this message translates to:
+  /// **'{hours} h left'**
+  String portalRemainingHours(Object hours);
+
+  /// No description provided for @portalRemainingDays.
+  ///
+  /// In en, this message translates to:
+  /// **'{days} d left'**
+  String portalRemainingDays(Object days);
+
+  /// No description provided for @portalNowActive.
+  ///
+  /// In en, this message translates to:
+  /// **'Now active: {eventName} ({bossName}), {remaining}'**
+  String portalNowActive(Object eventName, Object bossName, Object remaining);
+
+  /// No description provided for @portalClosedUntil.
+  ///
+  /// In en, this message translates to:
+  /// **'Portal closed, until {eventName}: {remaining}'**
+  String portalClosedUntil(Object eventName, Object remaining);
+
+  /// No description provided for @portalNextWindow.
+  ///
+  /// In en, this message translates to:
+  /// **'Next: {eventName} ({start} - {end})'**
+  String portalNextWindow(Object eventName, Object start, Object end);
+
+  /// No description provided for @portalBoss.
+  ///
+  /// In en, this message translates to:
+  /// **'Boss: {bossName}'**
+  String portalBoss(Object bossName);
+
+  /// No description provided for @portalActiveUntil.
+  ///
+  /// In en, this message translates to:
+  /// **'Active now, ends in {timeLeft}'**
+  String portalActiveUntil(Object timeLeft);
+
+  /// No description provided for @portalDateRange.
+  ///
+  /// In en, this message translates to:
+  /// **'{start} - {end}'**
+  String portalDateRange(Object start, Object end);
+
+  /// No description provided for @bootstrapInitializing.
+  ///
+  /// In en, this message translates to:
+  /// **'Initializing...'**
+  String get bootstrapInitializing;
+
+  /// No description provided for @bootstrapPreparingImageCache.
+  ///
+  /// In en, this message translates to:
+  /// **'Preparing image cache...'**
+  String get bootstrapPreparingImageCache;
+
+  /// No description provided for @bootstrapLoadingSettings.
+  ///
+  /// In en, this message translates to:
+  /// **'Loading settings...'**
+  String get bootstrapLoadingSettings;
+
+  /// No description provided for @bootstrapLoadingDecks.
+  ///
+  /// In en, this message translates to:
+  /// **'Loading saved decks...'**
+  String get bootstrapLoadingDecks;
+
+  /// No description provided for @bootstrapReadingAppVersion.
+  ///
+  /// In en, this message translates to:
+  /// **'Reading app version...'**
+  String get bootstrapReadingAppVersion;
+
+  /// No description provided for @bootstrapBuildingCatalog.
+  ///
+  /// In en, this message translates to:
+  /// **'Building and validating catalog...'**
+  String get bootstrapBuildingCatalog;
+
+  /// No description provided for @bootstrapRecomputingDeck.
+  ///
+  /// In en, this message translates to:
+  /// **'Recomputing initial deck...'**
+  String get bootstrapRecomputingDeck;
+
+  /// No description provided for @bootstrapDone.
+  ///
+  /// In en, this message translates to:
+  /// **'Done'**
+  String get bootstrapDone;
+
+  /// No description provided for @catalogProgressLoadOnyxSheet.
+  ///
+  /// In en, this message translates to:
+  /// **'Loading Onyx sheet...'**
+  String get catalogProgressLoadOnyxSheet;
+
+  /// No description provided for @catalogProgressReadBaseCatalog.
+  ///
+  /// In en, this message translates to:
+  /// **'Reading base card catalog...'**
+  String get catalogProgressReadBaseCatalog;
+
+  /// No description provided for @catalogProgressMergeExcel.
+  ///
+  /// In en, this message translates to:
+  /// **'Merging Excel supplement...'**
+  String get catalogProgressMergeExcel;
+
+  /// No description provided for @catalogProgressApplyComboPatch.
+  ///
+  /// In en, this message translates to:
+  /// **'Applying combo patch...'**
+  String get catalogProgressApplyComboPatch;
+
+  /// No description provided for @catalogProgressApplyUserPatch.
+  ///
+  /// In en, this message translates to:
+  /// **'Applying user patch...'**
+  String get catalogProgressApplyUserPatch;
+
+  /// No description provided for @catalogProgressParseMergedCatalog.
+  ///
+  /// In en, this message translates to:
+  /// **'Parsing merged catalog...'**
+  String get catalogProgressParseMergedCatalog;
+
+  /// No description provided for @catalogProgressAddSyntheticOnyx.
+  ///
+  /// In en, this message translates to:
+  /// **'Adding synthetic Onyx cards...'**
+  String get catalogProgressAddSyntheticOnyx;
+
+  /// No description provided for @catalogProgressFinalizeCatalog.
+  ///
+  /// In en, this message translates to:
+  /// **'Finalizing catalog...'**
+  String get catalogProgressFinalizeCatalog;
+
+  /// No description provided for @catalogProgressReady.
+  ///
+  /// In en, this message translates to:
+  /// **'Catalog ready'**
+  String get catalogProgressReady;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

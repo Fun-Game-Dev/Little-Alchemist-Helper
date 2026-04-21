@@ -259,6 +259,7 @@ class _ShopSeasonsScreenState extends State<ShopSeasonsScreen> {
               inShopNow: shopPackIsInWindow(
                 shopStart: row.shopStart,
                 visibleDays: schedule.shopVisibleDays,
+                shopStartHourUtc: schedule.shopStartHourUtc,
                 now: nowUtc,
               ),
             ),

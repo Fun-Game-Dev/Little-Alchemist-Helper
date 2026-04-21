@@ -581,8 +581,122 @@
   },
   "eventsShopTitle": "Shop",
   "eventsShopSubtitle": "Packs in shop",
+  "tabEvents": "Events",
   "eventsArenaTitle": "Arena",
   "eventsArenaSubtitle": "Arena shop",
   "eventsPortalTitle": "Portal",
-  "eventsPortalSubtitle": "Portal rewards"
+  "eventsPortalSubtitle": "Portal rewards",
+  "eventsExpandAll": "Expand all",
+  "eventsCollapseAll": "Collapse all",
+  "eventsDurationDays": "{days} d",
+  "@eventsDurationDays": {
+    "placeholders": {
+      "days": {}
+    }
+  },
+  "eventsDurationHours": "{hours} h",
+  "@eventsDurationHours": {
+    "placeholders": {
+      "hours": {}
+    }
+  },
+  "eventsDurationMinutes": "{minutes} m",
+  "@eventsDurationMinutes": {
+    "placeholders": {
+      "minutes": {}
+    }
+  },
+  "arenaCurrentInShop": "In shop now: {ability}, {timeLeft} left",
+  "@arenaCurrentInShop": {
+    "placeholders": {
+      "ability": {},
+      "timeLeft": {}
+    }
+  },
+  "arenaCurrentWindow": "In shop now, {timeLeft} left",
+  "@arenaCurrentWindow": {
+    "placeholders": {
+      "timeLeft": {}
+    }
+  },
+  "arenaNextWindow": "Next: {start} - {end} (in {timeUntilStart})",
+  "@arenaNextWindow": {
+    "placeholders": {
+      "start": {},
+      "end": {},
+      "timeUntilStart": {}
+    }
+  },
+  "portalOpenEventFailed": "Could not open event page",
+  "portalRemainingHours": "{hours} h left",
+  "@portalRemainingHours": {
+    "placeholders": {
+      "hours": {}
+    }
+  },
+  "portalRemainingDays": "{days} d left",
+  "@portalRemainingDays": {
+    "placeholders": {
+      "days": {}
+    }
+  },
+  "portalNowActive": "Now active: {eventName} ({bossName}), {remaining}",
+  "@portalNowActive": {
+    "placeholders": {
+      "eventName": {},
+      "bossName": {},
+      "remaining": {}
+    }
+  },
+  "portalClosedUntil": "Portal closed, until {eventName}: {remaining}",
+  "@portalClosedUntil": {
+    "placeholders": {
+      "eventName": {},
+      "remaining": {}
+    }
+  },
+  "portalNextWindow": "Next: {eventName} ({start} - {end})",
+  "@portalNextWindow": {
+    "placeholders": {
+      "eventName": {},
+      "start": {},
+      "end": {}
+    }
+  },
+  "portalBoss": "Boss: {bossName}",
+  "@portalBoss": {
+    "placeholders": {
+      "bossName": {}
+    }
+  },
+  "portalActiveUntil": "Active now, ends in {timeLeft}",
+  "@portalActiveUntil": {
+    "placeholders": {
+      "timeLeft": {}
+    }
+  },
+  "portalDateRange": "{start} - {end}",
+  "@portalDateRange": {
+    "placeholders": {
+      "start": {},
+      "end": {}
+    }
+  },
+  "bootstrapInitializing": "Initializing...",
+  "bootstrapPreparingImageCache": "Preparing image cache...",
+  "bootstrapLoadingSettings": "Loading settings...",
+  "bootstrapLoadingDecks": "Loading saved decks...",
+  "bootstrapReadingAppVersion": "Reading app version...",
+  "bootstrapBuildingCatalog": "Building and validating catalog...",
+  "bootstrapRecomputingDeck": "Recomputing initial deck...",
+  "bootstrapDone": "Done",
+  "catalogProgressLoadOnyxSheet": "Loading Onyx sheet...",
+  "catalogProgressReadBaseCatalog": "Reading base card catalog...",
+  "catalogProgressMergeExcel": "Merging Excel supplement...",
+  "catalogProgressApplyComboPatch": "Applying combo patch...",
+  "catalogProgressApplyUserPatch": "Applying user patch...",
+  "catalogProgressParseMergedCatalog": "Parsing merged catalog...",
+  "catalogProgressAddSyntheticOnyx": "Adding synthetic Onyx cards...",
+  "catalogProgressFinalizeCatalog": "Finalizing catalog...",
+  "catalogProgressReady": "Catalog ready"
 }

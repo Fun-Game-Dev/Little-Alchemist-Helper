@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:url_launcher/url_launcher.dart';
 
+import '../../l10n/l10n_ext.dart';
 import '../../services/portal_rotation_service.dart';
 import '../../util/card_display_emojis.dart';
 
@@ -51,7 +52,7 @@ class _NormalPortalRotationScreenState
       return;
     }
     ScaffoldMessenger.of(context).showSnackBar(
-      const SnackBar(content: Text('Не удалось открыть страницу события')),
+      SnackBar(content: Text(context.l10n.portalOpenEventFailed)),
     );
   }
 
@@ -60,17 +61,24 @@ class _NormalPortalRotationScreenState
     final int days = remaining.inDays;
     if (days <= 0) {
       final int hours = remaining.inHours;
-      return 'осталось ${hours.clamp(1, 24)} ч';
+      return context.l10n.portalRemainingHours(hours.clamp(1, 24));
     }
-    return 'осталось $days д';
+    return context.l10n.portalRemainingDays(days);
   }
 
   String _bannerLabel() {
     if (_snapshot.isPortalOpen) {
       final PortalEventEntry activeEvent = _snapshot.activeEvent!;
-      return 'Сейчас идет: ${activeEvent.eventName} (${activeEvent.bossName}), ${_remainingLabel()}';
+      return context.l10n.portalNowActive(
+        activeEvent.eventName,
+        activeEvent.bossName,
+        _remainingLabel(),
+      );
     }
-    return 'Портал закрыт, до ${_snapshot.nextEvent.eventName} ${_remainingLabel()}';
+    return context.l10n.portalClosedUntil(
+      _snapshot.nextEvent.eventName,
+      _remainingLabel(),
+    );
   }
 
   String _nextEventWindowLabel(BuildContext context) {
@@ -81,20 +89,24 @@ class _NormalPortalRotationScreenState
     final DateTime nextEnd = nextStart.add(const Duration(days: 10));
     final Locale locale = Localizations.localeOf(context);
     final DateFormat dateFormat = DateFormat.yMMMd(locale.toString());
-    return 'Следующий: ${_snapshot.nextEvent.eventName} (${dateFormat.format(nextStart)} - ${dateFormat.format(nextEnd)})';
+    return context.l10n.portalNextWindow(
+      _snapshot.nextEvent.eventName,
+      dateFormat.format(nextStart),
+      dateFormat.format(nextEnd),
+    );
   }
 
   String _formatDurationLabel(Duration duration) {
     final int days = duration.inDays;
     if (days > 0) {
-      return '$days д';
+      return context.l10n.eventsDurationDays(days);
     }
     final int hours = duration.inHours;
     if (hours > 0) {
-      return '$hours ч';
+      return context.l10n.eventsDurationHours(hours);
     }
     final int minutes = duration.inMinutes;
-    return '${minutes.clamp(1, 59)} м';
+    return context.l10n.eventsDurationMinutes(minutes.clamp(1, 59));
   }
 
   @override
@@ -282,7 +294,7 @@ class _PortalEventCard extends StatelessWidget {
                           ),
                           const SizedBox(height: 4),
                           Text(
-                            'Boss: ${event.bossName}',
+                            context.l10n.portalBoss(event.bossName),
                             style: theme.textTheme.bodySmall?.copyWith(
                               color: theme.colorScheme.onSurfaceVariant,
                             ),
@@ -290,8 +302,13 @@ class _PortalEventCard extends StatelessWidget {
                           const SizedBox(height: 4),
                           Text(
                             window.isActiveNow
-                                ? 'Идет сейчас, до конца ${formatDurationLabel(window.timeUntilEnd!)}'
-                                : '${dateFormat.format(window.startUtc)} - ${dateFormat.format(window.endUtc)}',
+                                ? context.l10n.portalActiveUntil(
+                                    formatDurationLabel(window.timeUntilEnd!),
+                                  )
+                                : context.l10n.portalDateRange(
+                                    dateFormat.format(window.startUtc),
+                                    dateFormat.format(window.endUtc),
+                                  ),
                             style: theme.textTheme.bodySmall?.copyWith(
                               color: theme.colorScheme.onSurfaceVariant,
                             ),

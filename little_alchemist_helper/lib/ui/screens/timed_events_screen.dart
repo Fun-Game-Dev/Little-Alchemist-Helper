@@ -40,7 +40,9 @@ class _TimedEventsScreenState extends State<TimedEventsScreen> {
             valueListenable: _shopController.allSectionsCollapsed,
             builder: (BuildContext context, bool allCollapsed, Widget? child) {
               return IconButton(
-                tooltip: allCollapsed ? 'Развернуть все' : 'Свернуть все',
+                tooltip: allCollapsed
+                    ? context.l10n.eventsExpandAll
+                    : context.l10n.eventsCollapseAll,
                 onPressed: _shopController.toggleAllSections,
                 icon: Icon(
                   allCollapsed ? Icons.unfold_more : Icons.unfold_less,

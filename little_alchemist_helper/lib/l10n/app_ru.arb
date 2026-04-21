@@ -434,8 +434,122 @@
   "shopPackOnyxCombo": "Onyx: {card}",
   "eventsShopTitle": "Магазин",
   "eventsShopSubtitle": "Пакеты в магазине",
+  "tabEvents": "События",
   "eventsArenaTitle": "Арена",
   "eventsArenaSubtitle": "Магазин арены",
   "eventsPortalTitle": "Портал",
-  "eventsPortalSubtitle": "Награды за портал"
+  "eventsPortalSubtitle": "Награды за портал",
+  "eventsExpandAll": "Развернуть все",
+  "eventsCollapseAll": "Свернуть все",
+  "eventsDurationDays": "{days} д",
+  "@eventsDurationDays": {
+    "placeholders": {
+      "days": {}
+    }
+  },
+  "eventsDurationHours": "{hours} ч",
+  "@eventsDurationHours": {
+    "placeholders": {
+      "hours": {}
+    }
+  },
+  "eventsDurationMinutes": "{minutes} м",
+  "@eventsDurationMinutes": {
+    "placeholders": {
+      "minutes": {}
+    }
+  },
+  "arenaCurrentInShop": "Сейчас в магазине: {ability}, осталось {timeLeft}",
+  "@arenaCurrentInShop": {
+    "placeholders": {
+      "ability": {},
+      "timeLeft": {}
+    }
+  },
+  "arenaCurrentWindow": "Сейчас в магазине, осталось {timeLeft}",
+  "@arenaCurrentWindow": {
+    "placeholders": {
+      "timeLeft": {}
+    }
+  },
+  "arenaNextWindow": "Следующий раз: {start} - {end} (через {timeUntilStart})",
+  "@arenaNextWindow": {
+    "placeholders": {
+      "start": {},
+      "end": {},
+      "timeUntilStart": {}
+    }
+  },
+  "portalOpenEventFailed": "Не удалось открыть страницу события",
+  "portalRemainingHours": "осталось {hours} ч",
+  "@portalRemainingHours": {
+    "placeholders": {
+      "hours": {}
+    }
+  },
+  "portalRemainingDays": "осталось {days} д",
+  "@portalRemainingDays": {
+    "placeholders": {
+      "days": {}
+    }
+  },
+  "portalNowActive": "Сейчас идет: {eventName} ({bossName}), {remaining}",
+  "@portalNowActive": {
+    "placeholders": {
+      "eventName": {},
+      "bossName": {},
+      "remaining": {}
+    }
+  },
+  "portalClosedUntil": "Портал закрыт, до {eventName} {remaining}",
+  "@portalClosedUntil": {
+    "placeholders": {
+      "eventName": {},
+      "remaining": {}
+    }
+  },
+  "portalNextWindow": "Следующий: {eventName} ({start} - {end})",
+  "@portalNextWindow": {
+    "placeholders": {
+      "eventName": {},
+      "start": {},
+      "end": {}
+    }
+  },
+  "portalBoss": "Босс: {bossName}",
+  "@portalBoss": {
+    "placeholders": {
+      "bossName": {}
+    }
+  },
+  "portalActiveUntil": "Идет сейчас, до конца {timeLeft}",
+  "@portalActiveUntil": {
+    "placeholders": {
+      "timeLeft": {}
+    }
+  },
+  "portalDateRange": "{start} - {end}",
+  "@portalDateRange": {
+    "placeholders": {
+      "start": {},
+      "end": {}
+    }
+  },
+  "bootstrapInitializing": "Инициализация...",
+  "bootstrapPreparingImageCache": "Подготавливаем кеш изображений...",
+  "bootstrapLoadingSettings": "Загружаем настройки...",
+  "bootstrapLoadingDecks": "Загружаем сохраненные колоды...",
+  "bootstrapReadingAppVersion": "Получаем версию приложения...",
+  "bootstrapBuildingCatalog": "Собираем и валидируем каталог...",
+  "bootstrapRecomputingDeck": "Пересчитываем стартовую колоду...",
+  "bootstrapDone": "Готово",
+  "catalogProgressLoadOnyxSheet": "Загружаем таблицу Onyx...",
+  "catalogProgressReadBaseCatalog": "Читаем базовый каталог карт...",
+  "catalogProgressMergeExcel": "Подмешиваем данные из excel...",
+  "catalogProgressApplyComboPatch": "Применяем patch комбинаций...",
+  "catalogProgressApplyUserPatch": "Применяем пользовательский patch...",
+  "catalogProgressParseMergedCatalog": "Парсим итоговый каталог...",
+  "catalogProgressAddSyntheticOnyx": "Добавляем synthetic Onyx карточки...",
+  "catalogProgressFinalizeCatalog": "Финализируем каталог...",
+  "catalogProgressReady": "Каталог готов"
 }

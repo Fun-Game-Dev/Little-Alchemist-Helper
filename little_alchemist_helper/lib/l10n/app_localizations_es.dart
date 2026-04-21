@@ -796,6 +796,9 @@ class AppLocalizationsEs extends AppLocalizations {
   String get eventsShopSubtitle => 'Paquetes en la tienda';
 
   @override
+  String get tabEvents => 'Eventos';
+
+  @override
   String get eventsArenaTitle => 'Arena';
 
   @override
@@ -806,4 +809,134 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get eventsPortalSubtitle => 'Recompensas del portal';
+
+  @override
+  String get eventsExpandAll => 'Expandir todo';
+
+  @override
+  String get eventsCollapseAll => 'Contraer todo';
+
+  @override
+  String eventsDurationDays(Object days) {
+    return '$days d';
+  }
+
+  @override
+  String eventsDurationHours(Object hours) {
+    return '$hours h';
+  }
+
+  @override
+  String eventsDurationMinutes(Object minutes) {
+    return '$minutes m';
+  }
+
+  @override
+  String arenaCurrentInShop(Object ability, Object timeLeft) {
+    return 'En tienda ahora: $ability, quedan $timeLeft';
+  }
+
+  @override
+  String arenaCurrentWindow(Object timeLeft) {
+    return 'En tienda ahora, quedan $timeLeft';
+  }
+
+  @override
+  String arenaNextWindow(Object start, Object end, Object timeUntilStart) {
+    return 'Siguiente: $start - $end (en $timeUntilStart)';
+  }
+
+  @override
+  String get portalOpenEventFailed => 'No se pudo abrir la pagina del evento';
+
+  @override
+  String portalRemainingHours(Object hours) {
+    return 'quedan $hours h';
+  }
+
+  @override
+  String portalRemainingDays(Object days) {
+    return 'quedan $days d';
+  }
+
+  @override
+  String portalNowActive(Object eventName, Object bossName, Object remaining) {
+    return 'Activo ahora: $eventName ($bossName), $remaining';
+  }
+
+  @override
+  String portalClosedUntil(Object eventName, Object remaining) {
+    return 'Portal cerrado, hasta $eventName: $remaining';
+  }
+
+  @override
+  String portalNextWindow(Object eventName, Object start, Object end) {
+    return 'Siguiente: $eventName ($start - $end)';
+  }
+
+  @override
+  String portalBoss(Object bossName) {
+    return 'Jefe: $bossName';
+  }
+
+  @override
+  String portalActiveUntil(Object timeLeft) {
+    return 'Activo ahora, termina en $timeLeft';
+  }
+
+  @override
+  String portalDateRange(Object start, Object end) {
+    return '$start - $end';
+  }
+
+  @override
+  String get bootstrapInitializing => 'Inicializando...';
+
+  @override
+  String get bootstrapPreparingImageCache => 'Preparando cache de imagenes...';
+
+  @override
+  String get bootstrapLoadingSettings => 'Cargando ajustes...';
+
+  @override
+  String get bootstrapLoadingDecks => 'Cargando mazos guardados...';
+
+  @override
+  String get bootstrapReadingAppVersion => 'Leyendo version de la app...';
+
+  @override
+  String get bootstrapBuildingCatalog => 'Construyendo y validando catalogo...';
+
+  @override
+  String get bootstrapRecomputingDeck => 'Recalculando mazo inicial...';
+
+  @override
+  String get bootstrapDone => 'Listo';
+
+  @override
+  String get catalogProgressLoadOnyxSheet => 'Cargando tabla Onyx...';
+
+  @override
+  String get catalogProgressReadBaseCatalog => 'Leyendo catalogo base de cartas...';
+
+  @override
+  String get catalogProgressMergeExcel => 'Mezclando suplemento de Excel...';
+
+  @override
+  String get catalogProgressApplyComboPatch => 'Aplicando parche de combinaciones...';
+
+  @override
+  String get catalogProgressApplyUserPatch => 'Aplicando parche de usuario...';
+
+  @override
+  String get catalogProgressParseMergedCatalog => 'Parseando catalogo final...';
+
+  @override
+  String get catalogProgressAddSyntheticOnyx => 'Agregando cartas Onyx sinteticas...';
+
+  @override
+  String get catalogProgressFinalizeCatalog => 'Finalizando catalogo...';
+
+  @override
+  String get catalogProgressReady => 'Catalogo listo';
 }

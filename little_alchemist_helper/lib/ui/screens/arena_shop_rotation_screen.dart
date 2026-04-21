@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
+import '../../l10n/l10n_ext.dart';
 import '../../services/arena_shop_rotation_service.dart';
 
 class ArenaShopRotationScreen extends StatefulWidget {
@@ -41,14 +42,14 @@ class _ArenaShopRotationScreenState extends State<ArenaShopRotationScreen> {
   String _formatDurationLabel(Duration duration) {
     final int days = duration.inDays;
     if (days > 0) {
-      return '$days д';
+      return context.l10n.eventsDurationDays(days);
     }
     final int hours = duration.inHours;
     if (hours > 0) {
-      return '$hours ч';
+      return context.l10n.eventsDurationHours(hours);
     }
     final int minutes = duration.inMinutes;
-    return '${minutes.clamp(1, 59)} м';
+    return context.l10n.eventsDurationMinutes(minutes.clamp(1, 59));
   }
 
   @override
@@ -109,7 +110,7 @@ class _CurrentArenaBanner extends StatelessWidget {
           const SizedBox(width: 8),
           Expanded(
             child: Text(
-              'Сейчас в магазине: $currentAbilityName, осталось $timeLeftLabel',
+              context.l10n.arenaCurrentInShop(currentAbilityName, timeLeftLabel),
               style: theme.textTheme.titleSmall?.copyWith(
                 fontWeight: FontWeight.w700,
                 color: theme.colorScheme.onPrimaryContainer,
@@ -227,8 +228,14 @@ class _ArenaAbilityCard extends StatelessWidget {
                       const SizedBox(height: 6),
                       Text(
                         window.isActiveNow
-                            ? 'Сейчас в магазине, осталось ${formatDurationLabel(window.timeUntilEnd!)}'
-                            : 'Следующий раз: ${dateFormat.format(window.startUtc)} - ${dateFormat.format(window.endUtc)} (через ${formatDurationLabel(window.timeUntilStart)})',
+                            ? context.l10n.arenaCurrentWindow(
+                                formatDurationLabel(window.timeUntilEnd!),
+                              )
+                            : context.l10n.arenaNextWindow(
+                                dateFormat.format(window.startUtc),
+                                dateFormat.format(window.endUtc),
+                                formatDurationLabel(window.timeUntilStart),
+                              ),
                         style: theme.textTheme.bodySmall?.copyWith(
                           color: theme.colorScheme.onSurfaceVariant,
                           fontWeight: FontWeight.w600,

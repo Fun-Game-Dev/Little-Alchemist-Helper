@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:convert';
 import 'dart:ui';
 
@@ -383,7 +384,22 @@ class AppController extends ChangeNotifier {
   }
 
   static Future<AppController> bootstrap() async {
+    return bootstrapWithProgress();
+  }
+
+  static Future<AppController> bootstrapWithProgress({
+    void Function(String message, double progress)? onProgress,
+  }) async {
+    final AppLocalizations bootstrapL10n = lookupAppLocalizations(
+      _supportedLocale(PlatformDispatcher.instance.locale),
+    );
+    void report(String message, double progress) {
+      onProgress?.call(message, progress.clamp(0.0, 1.0));
+    }
+
+    report(bootstrapL10n.bootstrapInitializing, 0.05);
     final CollectionStore store = await CollectionStore.open();
+    report(bootstrapL10n.bootstrapPreparingImageCache, 0.15);
     final Map<String, String?> wikiSeed = store.readWikiImageUrlMap();
     final AppController c = AppController._(
       store,
@@ -393,11 +409,30 @@ class AppController extends ChangeNotifier {
       ),
       const DeckOptimizer(),
     );
+    report(bootstrapL10n.bootstrapLoadingSettings, 0.25);
     await c._hydratePrefsOnly();
-    await c._hydrateAppInfo();
-    await c._loadInitialCatalog();
+    report(bootstrapL10n.bootstrapLoadingDecks, 0.35);
     await c._hydrateDecksOnly();
+    await c._finishBootstrap(onProgress: report);
+    report(bootstrapL10n.bootstrapDone, 1.0);
     return c;
+  }
+
+  Future<void> _finishBootstrap({
+    required void Function(String message, double progress) onProgress,
+  }) async {
+    onProgress(_l10n.bootstrapReadingAppVersion, 0.45);
+    await _hydrateAppInfo();
+    onProgress(_l10n.bootstrapBuildingCatalog, 0.55);
+    await _loadInitialCatalog(
+      onProgress: (String message, double partProgress) {
+        final double normalized = 0.55 + (partProgress * 0.35);
+        onProgress(message, normalized);
+      },
+    );
+    onProgress(_l10n.bootstrapRecomputingDeck, 0.95);
+    recomputeBestDeck();
+    notifyListeners();
   }
 
   Future<void> _hydrateAppInfo() async {

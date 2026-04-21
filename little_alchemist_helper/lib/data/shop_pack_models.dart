@@ -7,12 +7,19 @@ import 'package:flutter/foundation.dart';
 bool shopPackIsInWindow({
   required DateTime shopStart,
   required int visibleDays,
+  required int shopStartHourUtc,
   required DateTime now,
 }) {
-  final DateTime start = DateTime(shopStart.year, shopStart.month, shopStart.day);
-  final DateTime today = DateTime(now.year, now.month, now.day);
+  assert(shopStartHourUtc >= 0 && shopStartHourUtc <= 23);
+  final DateTime start = DateTime.utc(
+    shopStart.year,
+    shopStart.month,
+    shopStart.day,
+    shopStartHourUtc,
+  );
+  final DateTime nowUtc = now.toUtc();
   final DateTime endExclusive = start.add(Duration(days: visibleDays));
-  return !today.isBefore(start) && today.isBefore(endExclusive);
+  return !nowUtc.isBefore(start) && nowUtc.isBefore(endExclusive);
 }
 
 String shopPackImageAssetPath(String imageFile) {
@@ -52,11 +59,11 @@ class ShopPackEntry {
     if (parsedTry == null) {
       throw FormatException('Bad shopStart: $start');
     }
-    final DateTime parsed = parsedTry;
+    final DateTime parsed = parsedTry.toUtc();
     return ShopPackEntry(
       id: id,
       displayName: name,
-      shopStart: DateTime(parsed.year, parsed.month, parsed.day),
+      shopStart: DateTime.utc(parsed.year, parsed.month, parsed.day),
       section: (json['section'] as String?) ?? '',
       occasion: (json['occasion'] as String?) ?? '',
       gcc: (json['gcc'] as String?) ?? '',
@@ -69,11 +76,13 @@ class ShopPackEntry {
 class ShopPackBundle {
   const ShopPackBundle({
     required this.shopVisibleDays,
+    required this.shopStartHourUtc,
     required this.packs,
     required this.cardNamesByPackId,
   });
 
   final int shopVisibleDays;
+  final int shopStartHourUtc;
   final List<ShopPackEntry> packs;
   final Map<String, List<String>> cardNamesByPackId;
 
@@ -84,7 +93,10 @@ class ShopPackBundle {
     }
     final Map<String, dynamic> packsRoot =
         Map<String, dynamic>.from(packsRootRaw);
-    final int days = (packsRoot['shopVisibleDays'] as num?)?.toInt() ?? 4;
+    final int days = (packsRoot['shopVisibleDays'] as num?)?.toInt() ?? 5;
+    final int startHourRaw =
+        (packsRoot['shopStartHourUtc'] as num?)?.toInt() ?? 17;
+    final int startHourUtc = startHourRaw.clamp(0, 23);
     final Object? packsRaw = packsRoot['packs'];
     if (packsRaw is! List<dynamic>) {
       throw const FormatException('shop_packs.json: packs must be array');
@@ -121,6 +133,7 @@ class ShopPackBundle {
     }
     return ShopPackBundle(
       shopVisibleDays: days,
+      shopStartHourUtc: startHourUtc,
       packs: List<ShopPackEntry>.unmodifiable(packs),
       cardNamesByPackId: Map<String, List<String>>.unmodifiable(byId),
     );

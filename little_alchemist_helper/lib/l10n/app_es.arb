@@ -434,8 +434,122 @@
   "shopPackOnyxCombo": "Onyx: {card}",
   "eventsShopTitle": "Tienda",
   "eventsShopSubtitle": "Paquetes en la tienda",
+  "tabEvents": "Eventos",
   "eventsArenaTitle": "Arena",
   "eventsArenaSubtitle": "Tienda de arena",
   "eventsPortalTitle": "Portal",
-  "eventsPortalSubtitle": "Recompensas del portal"
+  "eventsPortalSubtitle": "Recompensas del portal",
+  "eventsExpandAll": "Expandir todo",
+  "eventsCollapseAll": "Contraer todo",
+  "eventsDurationDays": "{days} d",
+  "@eventsDurationDays": {
+    "placeholders": {
+      "days": {}
+    }
+  },
+  "eventsDurationHours": "{hours} h",
+  "@eventsDurationHours": {
+    "placeholders": {
+      "hours": {}
+    }
+  },
+  "eventsDurationMinutes": "{minutes} m",
+  "@eventsDurationMinutes": {
+    "placeholders": {
+      "minutes": {}
+    }
+  },
+  "arenaCurrentInShop": "En tienda ahora: {ability}, quedan {timeLeft}",
+  "@arenaCurrentInShop": {
+    "placeholders": {
+      "ability": {},
+      "timeLeft": {}
+    }
+  },
+  "arenaCurrentWindow": "En tienda ahora, quedan {timeLeft}",
+  "@arenaCurrentWindow": {
+    "placeholders": {
+      "timeLeft": {}
+    }
+  },
+  "arenaNextWindow": "Siguiente: {start} - {end} (en {timeUntilStart})",
+  "@arenaNextWindow": {
+    "placeholders": {
+      "start": {},
+      "end": {},
+      "timeUntilStart": {}
+    }
+  },
+  "portalOpenEventFailed": "No se pudo abrir la pagina del evento",
+  "portalRemainingHours": "quedan {hours} h",
+  "@portalRemainingHours": {
+    "placeholders": {
+      "hours": {}
+    }
+  },
+  "portalRemainingDays": "quedan {days} d",
+  "@portalRemainingDays": {
+    "placeholders": {
+      "days": {}
+    }
+  },
+  "portalNowActive": "Activo ahora: {eventName} ({bossName}), {remaining}",
+  "@portalNowActive": {
+    "placeholders": {
+      "eventName": {},
+      "bossName": {},
+      "remaining": {}
+    }
+  },
+  "portalClosedUntil": "Portal cerrado, hasta {eventName}: {remaining}",
+  "@portalClosedUntil": {
+    "placeholders": {
+      "eventName": {},
+      "remaining": {}
+    }
+  },
+  "portalNextWindow": "Siguiente: {eventName} ({start} - {end})",
+  "@portalNextWindow": {
+    "placeholders": {
+      "eventName": {},
+      "start": {},
+      "end": {}
+    }
+  },
+  "portalBoss": "Jefe: {bossName}",
+  "@portalBoss": {
+    "placeholders": {
+      "bossName": {}
+    }
+  },
+  "portalActiveUntil": "Activo ahora, termina en {timeLeft}",
+  "@portalActiveUntil": {
+    "placeholders": {
+      "timeLeft": {}
+    }
+  },
+  "portalDateRange": "{start} - {end}",
+  "@portalDateRange": {
+    "placeholders": {
+      "start": {},
+      "end": {}
+    }
+  },
+  "bootstrapInitializing": "Inicializando...",
+  "bootstrapPreparingImageCache": "Preparando cache de imagenes...",
+  "bootstrapLoadingSettings": "Cargando ajustes...",
+  "bootstrapLoadingDecks": "Cargando mazos guardados...",
+  "bootstrapReadingAppVersion": "Leyendo version de la app...",
+  "bootstrapBuildingCatalog": "Construyendo y validando catalogo...",
+  "bootstrapRecomputingDeck": "Recalculando mazo inicial...",
+  "bootstrapDone": "Listo",
+  "catalogProgressLoadOnyxSheet": "Cargando tabla Onyx...",
+  "catalogProgressReadBaseCatalog": "Leyendo catalogo base de cartas...",
+  "catalogProgressMergeExcel": "Mezclando suplemento de Excel...",
+  "catalogProgressApplyComboPatch": "Aplicando parche de combinaciones...",
+  "catalogProgressApplyUserPatch": "Aplicando parche de usuario...",
+  "catalogProgressParseMergedCatalog": "Parseando catalogo final...",
+  "catalogProgressAddSyntheticOnyx": "Agregando cartas Onyx sinteticas...",
+  "catalogProgressFinalizeCatalog": "Finalizando catalogo...",
+  "catalogProgressReady": "Catalogo listo"
 }

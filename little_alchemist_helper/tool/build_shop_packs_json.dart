@@ -60,7 +60,7 @@ void main() {
     });
   }
   final Map<String, Object> root = <String, Object>{
-    'shopVisibleDays': 4,
+    'shopVisibleDays': 6,
     'packs': packs,
   };
   final File out = File('assets/data/shop_packs.json');

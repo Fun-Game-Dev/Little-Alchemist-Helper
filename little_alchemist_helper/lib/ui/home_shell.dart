@@ -56,7 +56,7 @@ class _HomeShellState extends State<HomeShell> {
           BottomNavigationBarItem(
             icon: Icon(Icons.event_outlined),
             activeIcon: Icon(Icons.event),
-            label: 'Эвенты',
+            label: context.l10n.tabEvents,
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.tune_outlined),

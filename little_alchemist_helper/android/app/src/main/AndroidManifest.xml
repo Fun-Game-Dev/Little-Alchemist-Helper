@@ -7,7 +7,7 @@
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         android:maxSdkVersion="28" />
     <application
-        android:label="little_alchemist_helper"
+        android:label="Little Alchemist Helper"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

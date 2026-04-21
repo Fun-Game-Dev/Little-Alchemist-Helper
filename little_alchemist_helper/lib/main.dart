@@ -22,11 +22,23 @@ class LittleAlchemistBootstrap extends StatefulWidget {
 class _LittleAlchemistBootstrapState extends State<LittleAlchemistBootstrap> {
   AppController? _controller;
   Object? _error;
+  double _bootstrapProgress = 0.0;
+  String _bootstrapMessage = '';
 
   @override
   void initState() {
     super.initState();
-    AppController.bootstrap().then(
+    AppController.bootstrapWithProgress(
+      onProgress: (String message, double progress) {
+        if (!mounted) {
+          return;
+        }
+        setState(() {
+          _bootstrapMessage = message;
+          _bootstrapProgress = progress;
+        });
+      },
+    ).then(
       (AppController c) {
         if (mounted) {
           setState(() => _controller = c);
@@ -108,8 +120,9 @@ class _LittleAlchemistBootstrapState extends State<LittleAlchemistBootstrap> {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
           useMaterial3: true,
         ),
-        home: const Scaffold(
-          body: Center(child: CircularProgressIndicator.adaptive()),
+        home: _BootstrapLoadingScreen(
+          progress: _bootstrapProgress,
+          message: _bootstrapMessage,
         ),
       );
     }
@@ -138,6 +151,56 @@ class _LittleAlchemistBootstrapState extends State<LittleAlchemistBootstrap> {
           useMaterial3: true,
         ),
         home: const HomeShell(),
+      ),
+    );
+  }
+}
+
+class _BootstrapLoadingScreen extends StatelessWidget {
+  const _BootstrapLoadingScreen({
+    required this.progress,
+    required this.message,
+  });
+
+  final double progress;
+  final String message;
+
+  @override
+  Widget build(BuildContext context) {
+    final double clamped = progress.clamp(0.0, 1.0);
+    final int percent = (clamped * 100).round();
+    return Scaffold(
+      body: Center(
+        child: ConstrainedBox(
+          constraints: const BoxConstraints(maxWidth: 420),
+          child: Padding(
+            padding: const EdgeInsets.all(24),
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: <Widget>[
+                Text(
+                  context.l10n.appTitle,
+                  textAlign: TextAlign.center,
+                  style: Theme.of(context).textTheme.headlineSmall,
+                ),
+                const SizedBox(height: 20),
+                Text(
+                  message.isEmpty ? context.l10n.bootstrapInitializing : message,
+                  textAlign: TextAlign.center,
+                ),
+                const SizedBox(height: 12),
+                LinearProgressIndicator(value: clamped),
+                const SizedBox(height: 8),
+                Text(
+                  '$percent%',
+                  textAlign: TextAlign.right,
+                  style: Theme.of(context).textTheme.bodySmall,
+                ),
+              ],
+            ),
+          ),
+        ),
       ),
     );
   }
